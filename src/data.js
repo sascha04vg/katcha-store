@@ -169,7 +169,7 @@ export const detailProduct = {
   id: 1,
   title: "Kids' A6 Address Book - Activity Book - Colouring-In Book - Zine",
   img: "img/address-book.jpg",
-  price: 3.49,
+  price: 3.5,
   company: "Katcha.fun",
   info: `A great resource for any little writers in your lives, encourage them to write letters and improve their literacy skills. A6 interactive activity book, created on recycled card with full-colour images. There are only 4 different contact page styles currently available, in the future there will be more. Each address book contains 8 contact pages and a cover and back, it also comes with 1 matching postcard.
      Please note books are now stapled together!
