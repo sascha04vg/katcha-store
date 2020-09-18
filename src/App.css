@@ -1,38 +1,120 @@
-.App {
+:root {
+  --peach: #eb6864;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #f57a00;
+  --orange: #fd7e14;
+  --yellow: #f5e625;
+  --green: #22b24c;
+  --teal: #20c997;
+  --cyan: #369;
+  --white: #fff;
+  --gray: #777;
+  --gray-dark: #333;
+  --peach-hover: #d83b36;
+  --secondary: #aaa;
+  --success: #22b24c;
+  --info: #369;
+  --warning: #f5e625;
+  --danger: #f57a00;
+  --light: #f8f9fa;
+  --dark: #222;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: "gooddog-new", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  color: var(--dark) !important;
+  background-color: var(--light) !important;
+}
+
+.text-title {
+  font-family: "gooddog-new", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.bg-peach {
+  background: var(--peach) !important;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--peach) !important;
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--peach) !important;
+}
+
+.btn-black:hover {
+  background: var(--peach) !important;
+  color: var(--light) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--peach);
+}
+
+.img-hp {
+  background-image: url("img/STARBG2RGB.jpg");
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0070ac;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center-top {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jumbotron-about {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 0.3rem;
+  max-width: 900px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
