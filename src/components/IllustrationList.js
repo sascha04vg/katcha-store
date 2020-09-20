@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Images from "../images";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default class IllustrationList extends Component {
   constructor() {
@@ -14,7 +15,7 @@ export default class IllustrationList extends Component {
             return (
               <li className="li-illustration" key={index}>
                 <a href="illustrations/{item.image}" data-lightbox="mygallery">
-                  <img src={item.image} alt="illustrations" />
+                  <LazyLoadImage src={item.image} alt="illustrations" />
                 </a>
               </li>
             );
