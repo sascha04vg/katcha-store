@@ -37,11 +37,13 @@ export default class Product extends Component {
                   value=""
                 >
                   {inCart ? (
-                    <p className="text-capitalize mb-0" disabled>
-                      In Cart
-                    </p>
+                    <Link className="cart-link" to="/cart">
+                      <p className="text-capitalize mb-0" disabled>
+                        In Cart
+                      </p>
+                    </Link>
                   ) : (
-                    <i className="fa fa-cart-plus"></i>
+                    <i class="fas fa-shopping-cart"></i>
                   )}
                 </button>
               </div>
@@ -131,6 +133,10 @@ const ProductWrapper = styled.div`
     border-radius: 0 0 0 0.5rem;
     transform: translate(100%, -100%);
     transition: all 0.2s linear;
+  }
+
+  .cart-link {
+    color: var(--light) !important;
   }
 
   .postage-badge {

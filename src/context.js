@@ -15,6 +15,7 @@ class ProductProvider extends Component {
     cartSubTotal: 0,
     cartPostage: 0,
     cartTotal: 0,
+    cartItemCount: 0,
   };
 
   componentDidMount() {
@@ -55,7 +56,10 @@ class ProductProvider extends Component {
 
     this.setState(
       () => {
-        return { products: tempProducts, cart: [...this.state.cart, product] };
+        return {
+          products: tempProducts,
+          cart: [...this.state.cart, product],
+        };
       },
       () => {
         this.addTotal();
@@ -162,12 +166,20 @@ class ProductProvider extends Component {
 
   addTotal = () => {
     let subTotal = 0;
+    let cartItem = 0;
     this.state.cart.map((item) => (subTotal += item.total));
+    this.state.cart.map((item) => (cartItem += item.count));
     const tempPostage = subTotal * 0.1;
     const postage = parseFloat(tempPostage.toFixed(2));
     const total = subTotal + postage;
+
     this.setState(() => {
-      return { cartSubTotal: subTotal, cartPostage: postage, cartTotal: total };
+      return {
+        cartSubTotal: subTotal,
+        cartPostage: postage,
+        cartTotal: total,
+        cartItemCount: cartItem,
+      };
     });
   };
 

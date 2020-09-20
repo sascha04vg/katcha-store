@@ -117,4 +117,211 @@ body {
   border-radius: 0.3rem;
   max-width: 900px;
 }
+
+.contact-form {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.contact-form-li {
+  float: left;
+  margin: auto;
+}
+
+.contact-form-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.subfields {
+  display: block;
+  margin: 0;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  color: #d0d0d0;
+}
+
+.mergeRow {
+  padding: 0 0 6px 0 !important;
+  clear: both;
+}
+
+.field-group {
+  position: relative;
+  margin: 3px 0 12px 0;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+.birthdayfield input {
+  width: 1.7em;
+}
+
+.subfields input {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 2.5em;
+  border: none !important;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eb6864;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ce5e5a;
+}
+
+.li-illustration {
+  width: 20%;
+  height: 19.9vw;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.li-illustration img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.li-illustration:hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.li-illustration img.landscape {
+  max-width: none;
+  max-height: 100%;
+}
+
+/* Example styles */
+.example .li-illustration {
+  overflow: visible;
+  position: relative;
+}
+
+.example .li-illustration:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.illustration-gallery {
+  top: 60px;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .li-illustration {
+    width: 400px;
+    height: 400px;
+  }
+  .li-illustration img {
+    opacity: 1;
+  }
+}
+
+.li-comics {
+  width: 20%;
+  height: 19.9vw;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.li-comics img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.li-comics:hover img {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid black;
+}
+
+.li-comics img.landscape {
+  max-width: none;
+  max-height: 100%;
+}
+
+/* Example styles */
+.example .li-comics {
+  overflow: visible;
+  position: relative;
+}
+
+.example .li-comics:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.illustration-gallery {
+  top: 60px;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .li-comics {
+    width: 400px;
+    height: 400px;
+  }
+  .li-comics img {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=App.css.map */

@@ -2,8 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PayPalButton from "./PayPalButton";
 export default function CartTotals({ value, history }) {
-  const { cartSubTotal, cartPostage, cartTotal, clearCart } = value;
-
+  const {
+    cartSubTotal,
+    cartPostage,
+    cartTotal,
+    clearCart,
+    cartItemCount,
+  } = value;
+  console.log(cartItemCount);
   return (
     <React.Fragment>
       <div className="container">

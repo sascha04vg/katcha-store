@@ -11,7 +11,9 @@ import Home from "./components/Home";
 import Modal from "./components/Modal";
 import Footer from "./components/Footer";
 import About from "./components/About";
-
+import PostCard from "./components/PostCard";
+import Contact from "./components/Contact";
+import IllustrationList from "./components/IllustrationList";
 class App extends Component {
   render() {
     return (
@@ -23,6 +25,9 @@ class App extends Component {
           <Route path="/details" component={Details}></Route>
           <Route path="/cart" component={Cart}></Route>
           <Route path="/about" component={About}></Route>
+          <Route path="/postcard" component={PostCard}></Route>
+          <Route path="/contact" component={Contact}></Route>
+          <Route path="/illustration" component={IllustrationList}></Route>
           <Route component={Default}></Route>
         </Switch>
         <Modal />
