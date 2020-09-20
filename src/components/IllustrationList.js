@@ -13,8 +13,8 @@ export default class IllustrationList extends Component {
           {this.state.initialData.map(function (item, index) {
             return (
               <li className="li-illustration" key={index}>
-                <a href="illustrations/" data-lightbox="mygallery">
-                  <img src={item.image} />
+                <a href="illustrations/{item.image}" data-lightbox="mygallery">
+                  <img src={item.image} alt="illustrations" />
                 </a>
               </li>
             );

@@ -258,14 +258,12 @@ export default class Contact extends Component {
                 </div>
                 <div id="mce-responses" className="clear">
                   <div
-                    className="response"
+                    className="response d-none"
                     id="mce-error-response"
-                    className="d-none"
                   ></div>
                   <div
-                    className="response"
+                    className="response d-none"
                     id="mce-success-response"
-                    className="d-none"
                   ></div>
                 </div>
                 <div
