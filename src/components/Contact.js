@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Title from "./Title";
 import fbLogo from "../img/FBbuttonred.png";
 import twitLogo from "../img/twitterbuttonred.png";
 import instaLogo from "../img/Instabuttonred.png";
