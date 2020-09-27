@@ -43,7 +43,7 @@ export default class Product extends Component {
                       </p>
                     </Link>
                   ) : (
-                    <i class="fas fa-shopping-cart"></i>
+                    <i className="fas fa-shopping-cart"></i>
                   )}
                 </button>
               </div>

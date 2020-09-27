@@ -5,7 +5,7 @@ export default class PostCard extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container p-5">
           <div className="row">
             <div className="col-10 mx-auto text-center pt-5">
               <img src={PostCardClub} style={{ width: "30%" }} alt="pcc_logo" />

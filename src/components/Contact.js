@@ -8,122 +8,73 @@ export default class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container pt-5">
           <div className="row">
             <div className="col-10 mx-auto text-center pt-5">
-              <Title name="Send me" title="an Email"></Title>
-              <div className="form-group row">
-                <form
-                  action="contactform.php"
-                  method="post"
-                  className="mx-auto"
-                >
-                  <input
-                    type="text"
-                    name="name"
-                    className="form-control mb-2"
-                    id="exampleInputEmail1"
-                    placeholder="Full Name"
-                    required
-                  />
-
-                  <input
-                    type="email"
-                    name="mail"
-                    className="form-control mb-2"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                    placeholder="Enter email"
-                    required
-                  />
-                  <small id="emailHelp" className="form-text text-muted mb-2">
-                    I'll never share your email with anyone else.
-                  </small>
-
-                  <input
-                    type="text"
-                    name="subject"
-                    className="form-control mb-2"
-                    id="exampleInputEmail1"
-                    placeholder="Subject"
-                  />
-
-                  <textarea
-                    className="form-control mb-2"
-                    id="exampleTextarea"
-                    rows="3"
-                    name="message"
-                    placeholder="Ask me anything!"
-                  ></textarea>
-
-                  <input
-                    type="submit"
-                    className="btn btn-black"
-                    value="Submit"
-                  />
-                  <hr className="my-4" />
-                  <h2>Or catch me on social media:</h2>
-                  <ul className="contact-form">
-                    <li className="contact-form-li">
-                      <a
-                        href="https://www.facebook.com/katcha.fun/"
-                        role="button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          className="none"
-                          src={fbLogo}
-                          style={{ height: "70px" }}
-                          alt="fb_logo"
-                        />
-                      </a>
-                    </li>
-                    <li className="contact-form-li">
-                      <a
-                        href="https://twitter.com/katcha_fun"
-                        role="button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          className="none"
-                          src={twitLogo}
-                          style={{ height: "70px" }}
-                          alt="twit_logo"
-                        />
-                      </a>
-                    </li>
-                    <li className="contact-form-li">
-                      <a
-                        href="https://www.instagram.com/katcha.fun/"
-                        role="button"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <img
-                          className="none"
-                          src={instaLogo}
-                          style={{ height: "70px" }}
-                          alt="insta_logo"
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                </form>
-              </div>
+              <h2>Catch me on social media:</h2>
+              <ul className="contact-form">
+                <li className="contact-form-li">
+                  <a
+                    href="https://www.facebook.com/katcha.fun/"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="none"
+                      src={fbLogo}
+                      style={{ height: "70px" }}
+                      alt="fb_logo"
+                    />
+                  </a>
+                </li>
+                <li className="contact-form-li">
+                  <a
+                    href="https://twitter.com/katcha_fun"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="none"
+                      src={twitLogo}
+                      style={{ height: "70px" }}
+                      alt="twit_logo"
+                    />
+                  </a>
+                </li>
+                <li className="contact-form-li">
+                  <a
+                    href="https://www.instagram.com/katcha.fun/"
+                    role="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="none"
+                      src={instaLogo}
+                      style={{ height: "70px" }}
+                      alt="insta_logo"
+                    />
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div className="form-group row">
+          </div>
+          <hr className="my-4" />
+        </div>
+        <div className="container text-center p-5">
+          <div className="row">
+            <div className="form-group">
               <form
                 action="https://fun.us12.list-manage.com/subscribe/post?u=507dd83fc34ba89ac3b16b9a9&amp;id=ffd92e51c4"
-                className="mx-auto"
                 method="post"
                 id="mc-embedded-subscribe-form"
                 name="mc-embedded-subscribe-form"
                 target="_blank"
                 novalidate
               >
-                <div className="mx-auto d-inline-block">
+                <div className="d-inline-block">
                   <h2>Subscribe to Katcha Recommends.</h2>
                   <div className="form-text text-muted">
                     <span className="asterisk">*</span> indicates required
@@ -163,8 +114,7 @@ export default class Contact extends Component {
                               value=""
                               placeholder="DD"
                             />
-                          </span>{" "}
-                          /{" "}
+                          </span>
                           <span className="subfield monthfield">
                             <label for="MERGE3-month">Month</label>
                             <input
