@@ -57,7 +57,12 @@ const IllustrationList = () => {
         <div className="container">
           <div className="row">
             <div className="mx-auto modal-container">
-              <img className="modal--img" id="img01" alt="modal" />
+              <img
+                className="modal--img"
+                id="img01"
+                alt="modal"
+                onClick={() => setOpenModal(!openModal)}
+              />
               <div className="img-modal-footer">
                 <p className="mb-0 mt-0" id="caption">
                   katcha.fun
@@ -159,5 +164,11 @@ const ImageModal = styled.div`
     color: var(--peach);
     text-decoration: none;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .modal--img {
+      height: initial;
+    }
   }
 `;

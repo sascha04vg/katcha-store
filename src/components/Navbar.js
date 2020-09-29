@@ -48,18 +48,18 @@ export default function NavBar() {
             About
           </Link>
           <Link
-            to="/"
-            className="nav-link"
-            onClick={() => setNavOpen(!navOpen)}
-          >
-            Comics
-          </Link>
-          <Link
             to="/illustration"
             className="nav-link"
             onClick={() => setNavOpen(!navOpen)}
           >
             Illustration
+          </Link>
+          <Link
+            to="/comics"
+            className="nav-link"
+            onClick={() => setNavOpen(!navOpen)}
+          >
+            Comics
           </Link>
           <Link
             to="/postcard"

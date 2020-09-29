@@ -71,7 +71,7 @@ export default class Contact extends Component {
                 id="mc-embedded-subscribe-form"
                 name="mc-embedded-subscribe-form"
                 target="_blank"
-                novalidate
+                noValidate
               >
                 <div className="d-inline-block">
                   <h2>Subscribe to Katcha Recommends.</h2>
@@ -102,28 +102,28 @@ export default class Contact extends Component {
                       <div className="field-group">
                         <div className="birthdayfield subfields borderbox">
                           <span className="subfield dayfield">
-                            <label for="MERGE3-day">Birthday</label>
+                            <label htmlFor="MERGE3-day">Birthday</label>
                             <input
                               type="text"
                               pattern="[0-9]*"
                               id="MERGE3-day"
                               name="MERGE3[day]"
-                              maxlength="2"
+                              maxLength="2"
                               size="2"
-                              value=""
+                              defaultValue=""
                               placeholder="DD"
                             />
                           </span>
                           <span className="subfield monthfield">
-                            <label for="MERGE3-month">Month</label>
+                            <label htmlFor="MERGE3-month">Month</label>
                             <input
                               type="text"
                               pattern="[0-9]*"
                               id="MERGE3-month"
                               name="MERGE3[month]"
-                              maxlength="2"
+                              maxLength="2"
                               size="2"
-                              value=""
+                              defaultValue=""
                               placeholder="MM"
                             />
                           </span>
@@ -149,7 +149,7 @@ export default class Contact extends Component {
                       className="mc_fieldset gdprRequired mc-field-group"
                       name="interestgroup_field"
                     >
-                      <label className="checkbox subfield" for="gdpr_22457">
+                      <label className="checkbox subfield" htmlFor="gdpr_22457">
                         <input
                           type="checkbox"
                           id="gdpr_22457"
@@ -159,7 +159,7 @@ export default class Contact extends Component {
                         />
                         &nbsp;<span>Email</span> &nbsp;
                       </label>
-                      <label className="checkbox subfield" for="gdpr_22461">
+                      <label className="checkbox subfield" htmlFor="gdpr_22461">
                         <input
                           type="checkbox"
                           id="gdpr_22461"
@@ -169,7 +169,7 @@ export default class Contact extends Component {
                         />
                         &nbsp;<span>Direct Mail</span> &nbsp;
                       </label>
-                      <label className="checkbox subfield" for="gdpr_22465">
+                      <label className="checkbox subfield" htmlFor="gdpr_22465">
                         <input
                           type="checkbox"
                           id="gdpr_22465"
@@ -222,8 +222,8 @@ export default class Contact extends Component {
                   <input
                     type="text"
                     name="b_507dd83fc34ba89ac3b16b9a9_ffd92e51c4"
-                    tabindex="-1"
-                    value=""
+                    tabIndex="-1"
+                    defaultValue=""
                   />
                 </div>
                 <div className="clear">

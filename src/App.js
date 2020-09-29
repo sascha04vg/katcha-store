@@ -14,6 +14,8 @@ import About from "./components/About";
 import PostCard from "./components/PostCard";
 import Contact from "./components/Contact";
 import IllustrationList from "./components/IllustrationList";
+import Comics from "./components/Comics";
+
 class App extends Component {
   render() {
     return (
@@ -28,6 +30,7 @@ class App extends Component {
           <Route path="/postcard" component={PostCard}></Route>
           <Route path="/contact" component={Contact}></Route>
           <Route path="/illustration" component={IllustrationList}></Route>
+          <Route path="/comics" component={Comics}></Route>
           <Route component={Default}></Route>
         </Switch>
         <Modal />
