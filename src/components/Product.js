@@ -20,13 +20,15 @@ export default class Product extends Component {
                   value.handleDetail(id);
                 }}
               >
-                <Link to="/details">
-                  <img
-                    src={img}
-                    alt="product"
-                    className="card-img-top p-2"
-                  ></img>
-                </Link>
+                <div className="product-background">
+                  <Link to="/details">
+                    <img
+                      src={img}
+                      alt="product"
+                      className="card-img-top p-2"
+                    ></img>
+                  </Link>
+                </div>
                 <button
                   className="cart-btn"
                   disabled={inCart ? true : false}
@@ -110,7 +112,7 @@ const ProductWrapper = styled.div`
   .img-container {
     position: relative;
     overflow: hidden;
-    max-height: 180px;
+    /* max-height: 180px; */
     text-align: center;
     display: block;
   }
