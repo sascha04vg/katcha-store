@@ -19,6 +19,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 2,
@@ -40,6 +43,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 3,
@@ -61,6 +67,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 4,
@@ -82,6 +91,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 5,
@@ -103,6 +115,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 6,
@@ -124,6 +139,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 7,
@@ -143,6 +161,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 8,
@@ -162,6 +183,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 9,
@@ -181,6 +205,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 10,
@@ -200,6 +227,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 11,
@@ -219,6 +249,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 12,
@@ -238,6 +271,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 13,
@@ -257,6 +293,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 14,
@@ -276,6 +315,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 15,
@@ -295,6 +337,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 16,
@@ -314,6 +359,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 17,
@@ -333,6 +381,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 18,
@@ -352,6 +403,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 19,
@@ -371,6 +425,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 20,
@@ -390,6 +447,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 21,
@@ -409,6 +469,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 22,
@@ -428,6 +491,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 23,
@@ -447,6 +513,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 24,
@@ -466,6 +535,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 25,
@@ -485,6 +557,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 26,
@@ -504,6 +579,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 27,
@@ -523,6 +601,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 28,
@@ -542,6 +623,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 29,
@@ -561,6 +645,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 30,
@@ -580,6 +667,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 31,
@@ -599,6 +689,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 32,
@@ -618,6 +711,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 33,
@@ -637,6 +733,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 34,
@@ -656,6 +755,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 35,
@@ -675,6 +777,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 36,
@@ -694,6 +799,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 37,
@@ -713,6 +821,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 38,
@@ -732,6 +843,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 39,
@@ -751,6 +865,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 40,
@@ -770,6 +887,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 41,
@@ -789,6 +909,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 42,
@@ -808,6 +931,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 43,
@@ -827,6 +953,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 44,
@@ -846,6 +975,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 45,
@@ -865,6 +997,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 46,
@@ -884,6 +1019,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 47,
@@ -903,6 +1041,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 48,
@@ -922,6 +1063,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 49,
@@ -941,6 +1085,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 50,
@@ -960,6 +1107,9 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
   {
     id: 51,
@@ -979,22 +1129,33 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0,
+    size: "A6 - Postcard",
+    digital: false,
+    background: "img/swirls/svg",
   },
 ];
 
 export const detailProduct = {
   id: 1,
-  title: "Kids' A6 Address Book - Activity Book - Colouring-In Book - Zine",
-  img: "img/address-book.jpg",
-  price: 3.5,
-  company: "Katcha.fun",
-  info: `A great resource for any little writers in your lives, encourage them to write letters and improve their literacy skills. A6 interactive activity book, created on recycled card with full-colour images. There are only 4 different contact page styles currently available, in the future there will be more. Each address book contains 8 contact pages and a cover and back, it also comes with 1 matching postcard.
-     Please note books are now stapled together!
-     GIFT SET
-    If you choose a Gift Set then you will receive an Address Book of your chosen size, its matching postcard, plus 5 more random postcards to get your little writer started. 
-    EXTRA CONTACT PAGES
-    In the future there will be new contact page designs, a new design every quarter. So when they've exhausted the heck out of their current contacts, come back and grab some fresh pages, unstaple your current book and staple the new ones in. You will receive 3 extra pages per set.`,
+  title: "BLOOMIN' MARVELLOUS - Illustration",
+  img: "img/BLOOMINMARVELLOUSillo.png",
+  price: 1.5,
+  company: "katcha.fun",
+  info: `Grow some joy this spring with a friendly reminder that the world is wonderful! Despite it's madness at the moment.
+  
+  Marvellous for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family. 
+  
+  Get your kids writing with the Postcard Club 2020, or start postcrossing and reach out to the whole world.
+  
+  Three quality A6 postcards in a matte 300gsm FSC certified card, ink drawings, coloured digitally.
+  
+  Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
+  
+  Shipped in an A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
   inCart: false,
   count: 0,
   total: 0,
+  size: "A6 - Postcard",
+  digital: false,
+  background: "img/swirls/svg",
 };

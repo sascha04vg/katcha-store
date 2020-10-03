@@ -10,12 +10,13 @@ export default class Details extends Component {
         {(value) => {
           const {
             id,
-            company,
+
             img,
             info,
             price,
             title,
             inCart,
+            size,
           } = value.detailProduct;
           return (
             <div className="container py-5 ">
@@ -33,7 +34,7 @@ export default class Details extends Component {
                 </div>
                 <div className="col-10 mx-auto col-md-6 my-3">
                   <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                    made by: <span className="text-uppercase">{company}</span>
+                    Size: <span className="text-uppercase">{size}</span>
                   </h4>
                   <h4 className="text-capitalize">
                     <strong>

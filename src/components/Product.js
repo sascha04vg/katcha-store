@@ -74,6 +74,9 @@ Product.propType = {
     title: PropTypes.string,
     price: PropTypes.number,
     inCart: PropTypes.bool,
+    size: PropTypes.string,
+    digital: PropTypes.bool,
+    background: PropTypes.string,
   }).isRequired,
 };
 
@@ -107,7 +110,7 @@ const ProductWrapper = styled.div`
     }
 
     .img-container {
-      background-image: url("img/loops.svg");
+      background-image: url({background});
       background-repeat: no-repeat;
       background-size: cover;
       background-position-y: 55px;
