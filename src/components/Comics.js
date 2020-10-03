@@ -47,7 +47,9 @@ export default class Comics extends Component {
                 <a
                   className="paypal pp-yellow a-brown"
                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=924SFCD6EEV66"
-                  target="_blank"
+                  target="_blank "
+                  without
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-paypal fa-lg"></i> Buy Now
                 </a>
@@ -95,8 +97,9 @@ export default class Comics extends Component {
                   className="paypal pp-brown a-yellow"
                   href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=924SFCD6EEV66"
                   target="_blank"
+                  without
+                  rel="noopener noreferrer"
                 >
-                  {" "}
                   <i className="fab fa-paypal fa-lg"></i> Jetzt Kaufen
                 </a>
                 <p className="brown-text">

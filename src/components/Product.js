@@ -10,7 +10,7 @@ export default class Product extends Component {
 
     const shortTitle = title.substring(0, 25);
     return (
-      <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
+      <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-4 my-3">
         <div className="card">
           <ProductConsumer>
             {(value) => (
@@ -20,15 +20,13 @@ export default class Product extends Component {
                   value.handleDetail(id);
                 }}
               >
-                <div className="product-background">
-                  <Link to="/details">
-                    <img
-                      src={img}
-                      alt="product"
-                      className="card-img-top p-2"
-                    ></img>
-                  </Link>
-                </div>
+                <Link to="/details">
+                  <img
+                    src={img}
+                    alt="product"
+                    className="card-img-top p-2"
+                  ></img>
+                </Link>
                 <button
                   className="cart-btn"
                   disabled={inCart ? true : false}
@@ -106,6 +104,13 @@ const ProductWrapper = styled.div`
     .postage-badge {
       background: var(--light);
       color: var(--peach);
+    }
+
+    .img-container {
+      background-image: url("img/loops.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: 55px;
     }
   }
 
