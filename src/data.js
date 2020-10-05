@@ -21,7 +21,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 4,
@@ -93,7 +93,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/loops.svg",
   },
   {
     id: 5,
@@ -117,7 +117,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/loops.svg",
   },
   {
     id: 6,
@@ -141,7 +141,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/loops.svg",
   },
   {
     id: 7,
@@ -163,7 +163,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 8,
@@ -185,7 +185,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 9,
@@ -207,7 +207,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 10,
@@ -229,7 +229,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 11,
@@ -251,7 +251,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 12,
@@ -273,7 +273,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 13,
@@ -295,7 +295,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 14,
@@ -317,7 +317,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 15,
@@ -339,7 +339,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 16,
@@ -361,7 +361,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 17,
@@ -383,7 +383,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 18,
@@ -405,7 +405,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 19,
@@ -427,7 +427,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 20,
@@ -449,7 +449,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 21,
@@ -471,7 +471,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 22,
@@ -493,7 +493,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 23,
@@ -515,7 +515,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 24,
@@ -537,7 +537,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 25,
@@ -559,7 +559,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 26,
@@ -581,7 +581,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 27,
@@ -603,7 +603,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 28,
@@ -625,7 +625,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 29,
@@ -647,7 +647,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 30,
@@ -669,7 +669,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 31,
@@ -691,7 +691,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 32,
@@ -713,7 +713,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 33,
@@ -735,7 +735,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 34,
@@ -757,7 +757,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 35,
@@ -779,7 +779,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 36,
@@ -801,7 +801,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 37,
@@ -823,7 +823,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 38,
@@ -845,7 +845,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 39,
@@ -867,7 +867,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 40,
@@ -889,7 +889,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 41,
@@ -911,7 +911,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 42,
@@ -933,7 +933,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 43,
@@ -955,7 +955,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 44,
@@ -977,7 +977,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 45,
@@ -999,7 +999,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 46,
@@ -1021,7 +1021,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 47,
@@ -1043,7 +1043,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 48,
@@ -1065,7 +1065,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 49,
@@ -1087,7 +1087,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 50,
@@ -1109,7 +1109,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
   {
     id: 51,
@@ -1131,7 +1131,7 @@ export const storeProducts = [
     total: 0,
     size: "A6 - Postcard",
     digital: false,
-    background: "img/swirls/svg",
+    background: "img/swirls.svg",
   },
 ];
 
@@ -1157,5 +1157,5 @@ export const detailProduct = {
   total: 0,
   size: "A6 - Postcard",
   digital: false,
-  background: "img/swirls/svg",
+  background: "img/swirls.svg",
 };
