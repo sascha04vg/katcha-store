@@ -169,14 +169,25 @@ class ProductProvider extends Component {
     let cartItem = 0;
     this.state.cart.map((item) => (subTotal += item.total));
     this.state.cart.map((item) => (cartItem += item.count));
-    const tempPostage = subTotal * 0.1;
-    const postage = parseFloat(tempPostage.toFixed(2));
-    const total = subTotal + postage;
+    // const tempPostage = (cartItem <=4) ? 0 : cartItem * 0.1;
+    let tempDiscount = 0
+if(cartItem <=4){
+  tempDiscount = 0
+}else if(cartItem >=5 && cartItem <=9) {
+  tempDiscount = cartItem * 0.1
+}else if(cartItem >=10 && cartItem <=15){
+  tempDiscount = cartItem * 0.2
+}else{
+  tempDiscount = cartItem * 0.35
+}
+
+    const discount = parseFloat(tempDiscount.toFixed(2));
+    const total = subTotal - discount;
 
     this.setState(() => {
       return {
         cartSubTotal: subTotal,
-        cartPostage: postage,
+        cartDiscount: discount,
         cartTotal: total,
         cartItemCount: cartItem,
       };

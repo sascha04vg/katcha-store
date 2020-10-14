@@ -4,7 +4,7 @@ import PayPalButton from "./PayPalButton";
 export default function CartTotals({ value, history }) {
   const {
     cartSubTotal,
-    cartPostage,
+    cartDiscount,
     cartTotal,
     clearCart,
     cartItemCount,
@@ -29,8 +29,8 @@ export default function CartTotals({ value, history }) {
               <strong>€{cartSubTotal}</strong>
             </h5>
             <h5>
-              <span>Postage: </span>
-              <strong>€{cartPostage}</strong>
+              <span>Discount: </span>
+              <strong>€{cartDiscount}</strong>
             </h5>
             <h5>
               <span>Total: </span>

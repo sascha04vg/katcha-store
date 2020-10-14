@@ -12,9 +12,10 @@ import Modal from "./components/Modal";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import PostCard from "./components/PostCard";
-import Contact from "./components/Contact";
 import IllustrationList from "./components/IllustrationList";
 import Comics from "./components/Comics";
+import Cookie from "./components/Cookie";
+import Privacy from "./components/Privacy"
 
 class App extends Component {
   render() {
@@ -28,12 +29,13 @@ class App extends Component {
           <Route path="/cart" component={Cart}></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/postcard" component={PostCard}></Route>
-          <Route path="/contact" component={Contact}></Route>
           <Route path="/illustration" component={IllustrationList}></Route>
           <Route path="/comics" component={Comics}></Route>
+          <Route path="/privacy" component={Privacy}></Route>
           <Route component={Default}></Route>
         </Switch>
         <Modal />
+        <Cookie />
         <Footer />
       </React.Fragment>
     );

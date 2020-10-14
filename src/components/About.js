@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import selfPotrait from "../img/selportrait4.png";
 import Title from "./Title";
+import Contact from "./Contact";
+
 export default class About extends Component {
   render() {
     return (
@@ -45,6 +47,7 @@ export default class About extends Component {
                 </Link>
               </p>
             </div>
+<Contact/>
           </div>
         </div>
       </React.Fragment>

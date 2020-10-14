@@ -75,13 +75,6 @@ export default function NavBar() {
           >
             Shop
           </Link>
-          <Link
-            to="/contact"
-            className="nav-link"
-            onClick={() => setNavOpen(!navOpen)}
-          >
-            Talk To Me
-          </Link>
         </div>
       </div>
       <ProductConsumer>
