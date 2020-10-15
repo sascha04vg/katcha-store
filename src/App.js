@@ -16,6 +16,7 @@ import IllustrationList from "./components/IllustrationList";
 import Comics from "./components/Comics";
 import Cookie from "./components/Cookie";
 import Privacy from "./components/Privacy"
+import Terms from "./components/Terms"
 
 class App extends Component {
   render() {
@@ -32,6 +33,7 @@ class App extends Component {
           <Route path="/illustration" component={IllustrationList}></Route>
           <Route path="/comics" component={Comics}></Route>
           <Route path="/privacy" component={Privacy}></Route>
+          <Route path="/terms" component={Terms}></Route>
           <Route component={Default}></Route>
         </Switch>
         <Modal />

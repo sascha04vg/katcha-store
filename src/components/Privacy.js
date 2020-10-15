@@ -219,6 +219,25 @@ or if you have a complaint</li>
     </div>
 </div>
 <div className="block block--block-richtext block--border-bottom">
+    <span className="snap-tag" id="block-3489"></span>
+    <div className="wrap">
+        <div className="richtext">
+            <h2>Purchases and Payments</h2>
+<p>Unless otherwise specified, this Application processes any payments by external payment service providers (PayPal). 
+In general and unless where otherwise stated, Users are requested to provide their payment details and personal information directly to such payment service providers. 
+This Application isn't involved in the collection and processing of such information: instead, it will only receive a notification by 
+the relevant payment service provider as to whether payment has been successfully completed.</p>
+<p>PAYPAL (PAYPAL INC.)</p>
+<ul>
+<li>PayPal is a payment service provided by PayPal Inc., which allows Users to make online payments.</li>
+<li>Personal Data processed: various types of Data as specified in the privacy policy of the service.</li>
+<li>Place of processing: See the PayPal privacy policy – <a href="https://www.paypal.com/webapps/mpp/ua/privacy-full">Privacy Policy.</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>
+<div className="block block--block-richtext block--border-bottom">
     <span className="snap-tag" id="block-3488"></span>
     <div className="wrap">
         <div className="richtext">
