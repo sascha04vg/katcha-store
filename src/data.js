@@ -5,24 +5,28 @@ export const storeProducts = [
     img: "img/BLOOMINMARVELLOUSillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `Grow some joy this spring with a friendly reminder that the world is wonderful! Despite it's madness at the moment.
+    info: `Grow some joy this spring with a friendly reminder that the world is blooming and it's marvellous! 
+
+    Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
     
-    Marvellous for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family. 
-    
-    Get your kids writing with the Postcard Club 2020, or start postcrossing and reach out to the whole world.
-    
-    Three quality A6 postcards in a matte 300gsm FSC certified card, ink drawings, coloured digitally.
-    
-    Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-    
-    Shipped in an A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
+    colourTags:['green', 'orange', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 2,
@@ -30,49 +34,57 @@ export const storeProducts = [
     img: "img/BLOOMINMARVELLOUSpatt.png",
     price: 1.5,
     company: "Katcha.fun",
-    info: `Grow some joy this spring with a friendly reminder that the world is wonderful! Despite it's madness at the moment.
+    info: `Grow some joy this spring with a friendly reminder that the world is blooming and it's marvellous! 
+
+    Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
     
-    Marvellous for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family. 
-    
-    Get your kids writing with the Postcard Club 2020, or start postcrossing and reach out to the whole world.
-    
-    Three quality A6 postcards in a matte 300gsm FSC certified card, ink drawings, coloured digitally.
-    
-    Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-    
-    Shipped in an A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
+    colourTags:['green', 'orange', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 3,
     title: "BLOOMIN' MARVELLOUS - Text",
     img: "img/BLOOMINMARVELLOUStext.png",
     price: 1.5,
-    company: "katcha.fun",
-    info: `Grow some joy this spring with a friendly reminder that the world is wonderful! Despite it's madness at the moment.
+    company: "Katcha.fun",
+    info: `Grow some joy this spring with a friendly reminder that the world is blooming and it's marvellous! 
+
+    Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
     
-    Marvellous for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family. 
-    
-    Get your kids writing with the Postcard Club 2020, or start postcrossing and reach out to the whole world.
-    
-    Three quality A6 postcards in a matte 300gsm FSC certified card, ink drawings, coloured digitally.
-    
-    Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-    
-    Shipped in an A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
+    colourTags:['green', 'orange', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 4,
@@ -80,24 +92,26 @@ export const storeProducts = [
     img: "img/AUTUMNALMAGICillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `Celebrate the season of Netflix and chill with this happy TV flicking cat.
- 
-      This listing is for an A5 art print featuring a cat enjoying the warm glow of the telly on a winter's night.
-      
-      Colourful art print inspired by the Feldberg skiing district in the Schwarzwald. 
-      
-      Smooth 400gsm card with a full-colour print, this print has a slight gloss to it which gives it a nice shine, but not too much of one!
-      
-      A5 Print - 210mm x 148mm
-      
-      Shipped in a board-backed envelope.`,
+    info: `Get all autumnal with these magic, but deadly funghis. Celebrate the turning of the seasons with all your friends!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['text', 'quote', 'message', 'inspiration', 'aspiration'],
+    moreTags:['funny', 'punny', 'watercolour', 'nature', 'autumn', 'seasonal', 'mushrooms', 'leaves'],
+    colourTags:['red', 'orange', 'brown', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/loops.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 5,
@@ -105,24 +119,26 @@ export const storeProducts = [
     img: "img/AUTUMNALMAGICpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a teeny floral print to please any grandparent.
- 
-      Remind your nearest and dearest that this is the season of life and creativity and to embrace the changing seasons and get their arse into gear!
-      
-      SPRING FORWARD!
-      
-      Three quality A6 postcards in a matte 330gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Get all autumnal with these magic, but deadly funghis. Celebrate the turning of the seasons with all your friends!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['text', 'quote', 'message', 'inspiration', 'aspiration'],
+    moreTags:['funny', 'punny', 'watercolour', 'nature', 'autumn', 'seasonal', 'mushrooms', 'leaves'],
+    colourTags:['red', 'orange', 'brown', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/loops.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 6,
@@ -130,24 +146,26 @@ export const storeProducts = [
     img: "img/AUTUMNALMAGICtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `Strawberry Fields Forever A5 Print
- 
-      Perfect decoration for a kids' room or a nursery, a representation of our ever temperamental summer weather and the joy every kid should experience of picking fresh fruit.
-      
-      Colourful art print inspired by the world around us and those small and adventurous minds it nurtures.
-      
-      Smooth 400gsm card with a full-colour print. 
-      
-      A5 Print - 210mm x 148mm
-      
-      Shipped in a board-backed envelope.`,
+    info: `Get all autumnal with these magic, but deadly funghis. Celebrate the turning of the seasons with all your friends!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['text', 'quote', 'message', 'inspiration', 'aspiration'],
+    moreTags:['funny', 'punny', 'watercolour', 'nature', 'autumn', 'seasonal', 'mushrooms', 'leaves'],
+    colourTags:['red', 'orange', 'brown', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/loops.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 7,
@@ -155,22 +173,26 @@ export const storeProducts = [
     img: "img/BLOODYDINOillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-    Send someone a passive aggressive birthday note to let them know just how old they're getting.
+    info: `Dinosaurs are for everyone, and this collection of watercolour dinosaurs will definitely make that statement!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
     
-    Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-    
-    Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-    
-    Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    Free worldwide shipping on all orders.`,
+    tags:['dinosaurs', 'kids cards', 'illustration', 'pattern', 'watercolour'],
+    moreTags:['funny', 'kawaii'],
+    colourTags:['pink', 'green', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 8,
@@ -178,22 +200,26 @@ export const storeProducts = [
     img: "img/BLOODYDINOpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Dinosaurs are for everyone, and this collection of watercolour dinosaurs will definitely make that statement!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['dinosaurs', 'kids cards', 'illustration', 'pattern', 'watercolour'],
+    moreTags:['funny', 'kawaii'],
+    colourTags:['pink', 'green', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 9,
@@ -201,22 +227,26 @@ export const storeProducts = [
     img: "img/BloodyDinotext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Dinosaurs are for everyone, and this collection of watercolour dinosaurs will definitely make that statement!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['dinosaurs', 'kids cards', 'illustration', 'pattern', 'watercolour'],
+    moreTags:['funny', 'kawaii'],
+    colourTags:['pink', 'green', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 10,
@@ -224,22 +254,26 @@ export const storeProducts = [
     img: "img/GROWWITHITillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['leaves', 'nature', 'girl', 'comic', 'funny', 'watering', 'growing'],
+    colourTags:['brown', 'green','peach'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 11,
@@ -247,22 +281,26 @@ export const storeProducts = [
     img: "img/GROWWITHITpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Acorn', 'nature', 'comic', 'funny', 'growing'],
+    colourTags:['green'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 12,
@@ -270,22 +308,26 @@ export const storeProducts = [
     img: "img/GROWWITHITtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Leaves', 'nature', 'comic', 'funny', 'growing'],
+    colourTags:['green', 'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 13,
@@ -293,22 +335,26 @@ export const storeProducts = [
     img: "img/KEEPITCREEPYillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Halloween', 'Sweets', 'Frogs', 'Bats', 'Broom'],
+    colourTags:['green', 'orange' , 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 14,
@@ -316,22 +362,26 @@ export const storeProducts = [
     img: "img/KEEPITCREEPYpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Halloween', 'Sweets', 'Frogs', 'Bats', 'Broom'],
+    colourTags:['green', 'orange'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 15,
@@ -339,22 +389,26 @@ export const storeProducts = [
     img: "img/KEEPITCREEPYtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Halloween', 'Sweets', 'Frogs', 'Bats', 'Broom'],
+    colourTags:['green', 'orange' , 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 16,
@@ -362,22 +416,28 @@ export const storeProducts = [
     img: "img/LETLOVERAINillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `This little love note will brighten even the greyest of skies. Send your loved ones a message of adoration in these cold wet months of winter.
+
+    Wonderful for Valentine's, special occasions or just a spontaneous declaration of admiration for your friends and family.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['valentine', `valentine's`, 'galentine', `galentine's`, 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'],
+    colourTags:['blue', 'red', 'grey'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 17,
@@ -385,22 +445,28 @@ export const storeProducts = [
     img: "img/LETLOVERAINpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `This little love note will brighten even the greyest of skies. Send your loved ones a message of adoration in these cold wet months of winter.
+
+    Wonderful for Valentine's, special occasions or just a spontaneous declaration of admiration for your friends and family.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['valentine', `valentine's`, 'galentine', `galentine's`, 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'],
+    colourTags:['blue', 'red', 'grey'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 18,
@@ -408,22 +474,28 @@ export const storeProducts = [
     img: "img/LETLOVERAINtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `This little love note will brighten even the greyest of skies. Send your loved ones a message of adoration in these cold wet months of winter.
+
+    Wonderful for Valentine's, special occasions or just a spontaneous declaration of admiration for your friends and family.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['valentine', `valentine's`, 'galentine', `galentine's`, 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'],
+    colourTags:['blue', 'red', 'grey'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 19,
@@ -431,22 +503,26 @@ export const storeProducts = [
     img: "img/LETTHEREBECAKEillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Birthday', 'Cake', 'Balloons', 'Party', 'Candles'],
+    colourTags:['green', 'pink' , 'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 20,
@@ -454,22 +530,26 @@ export const storeProducts = [
     img: "img/LETTHEREBECAKEpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Birthday', 'Cup cake', 'Cheery', 'Party', 'Candles'],
+    colourTags:['green', 'pink' , 'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 21,
@@ -477,22 +557,26 @@ export const storeProducts = [
     img: "img/LETTHEREBECAKEtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['Birthday', 'Cup cake', 'Cheery', 'Party', 'Candles'],
+    colourTags:['green', 'pink' , 'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 22,
@@ -500,22 +584,26 @@ export const storeProducts = [
     img: "img/LOVEURSELFillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Goofy hearts need goofy cards, send your weird love with these happy hearts.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'funny', 'goofy', 'cute', 'pattern', 'valentine', 'anniversary', 'galentine', 'self love', 'love', 'hearts'],
+    colourTags:['red', 'blue'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 23,
@@ -523,22 +611,26 @@ export const storeProducts = [
     img: "img/LOVEURSELFpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Goofy hearts need goofy cards, send your weird love with these happy hearts.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'funny', 'goofy', 'cute', 'pattern', 'valentine', 'anniversary', 'galentine', 'self love', 'love', 'hearts'],
+    colourTags:['red', 'white'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 24,
@@ -546,22 +638,26 @@ export const storeProducts = [
     img: "img/LOVEURSELFtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Goofy hearts need goofy cards, send your weird love with these happy hearts.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'funny', 'goofy', 'cute', 'pattern', 'valentine', 'anniversary', 'galentine', 'self love', 'love', 'hearts'],
+    colourTags:['red', 'pink'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 25,
@@ -569,22 +665,26 @@ export const storeProducts = [
     img: "img/MOLERATillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `A postcard that celebrates the launch of my kid's comic, The Ugliest, send this collection of sleeping naked mole rats and spread the cutest, ugliest, happiest love you ever did see.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'nature', 'wildlife', 'africa', 'comic', 'funny', 'self love'],
+    colourTags:['brown', 'pink','yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 26,
@@ -592,22 +692,26 @@ export const storeProducts = [
     img: "img/MOLERATpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `A postcard that celebrates the launch of my kid's comic, The Ugliest, send this collection of sleeping naked mole rats and spread the cutest, ugliest, happiest love you ever did see.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'nature', 'wildlife', 'africa', 'comic', 'funny', 'self love'],
+    colourTags:['brown', 'pink','yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 27,
@@ -615,22 +719,26 @@ export const storeProducts = [
     img: "img/MOLERATtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `A postcard that celebrates the launch of my kid's comic, The Ugliest, send this collection of sleeping naked mole rats and spread the cutest, ugliest, happiest love you ever did see.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'nature', 'wildlife', 'africa', 'comic', 'funny', 'self love'],
+    colourTags:['brown', 'pink','yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 28,
@@ -638,22 +746,26 @@ export const storeProducts = [
     img: "img/PEACEANDLOVEillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
+    colourTags:['blue', 'green','white'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 29,
@@ -661,22 +773,26 @@ export const storeProducts = [
     img: "img/PEACEANDLOVEpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
+    colourTags:['blue', 'green','white'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 30,
@@ -684,22 +800,26 @@ export const storeProducts = [
     img: "img/PEACEANDLOVEtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['watercolour', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
+    colourTags:['blue', 'green','white'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
 
   {
@@ -708,22 +828,26 @@ export const storeProducts = [
     img: "img/QUICKLYPRICKLYillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['cactus', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
+    colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 32,
@@ -731,22 +855,26 @@ export const storeProducts = [
     img: "img/QUICKLYPRICKLYpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['cactus', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
+    colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 33,
@@ -754,22 +882,26 @@ export const storeProducts = [
     img: "img/QUICKLYPRICKLYtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['cactus', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
+    colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 34,
@@ -777,22 +909,26 @@ export const storeProducts = [
     img: "img/READMEillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `The perfict postcard for book lovers, the ever devoted reader in their natural habitat! Send it out for World Book Day or to your favourite avid reader.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['reading', 'world book day', 'early learning', 'mental health', 'just a note', 'hello', 'how are you', 'funny', 'books', 'gifts', 'bookmark'],
+    colourTags:['blue', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 35,
@@ -800,22 +936,26 @@ export const storeProducts = [
     img: "img/READMEpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `The perfict postcard for book lovers, the ever devoted reader in their natural habitat! Send it out for World Book Day or to your favourite avid reader.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['reading', 'world book day', 'early learning', 'mental health', 'just a note', 'hello', 'how are you', 'funny', 'books', 'gifts', 'bookmark'],
+    colourTags:['blue', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 36,
@@ -823,22 +963,26 @@ export const storeProducts = [
     img: "img/READMEtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `The perfict postcard for book lovers, the ever devoted reader in their natural habitat! Send it out for World Book Day or to your favourite avid reader.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['reading', 'world book day', 'early learning', 'mental health', 'just a note', 'hello', 'how are you', 'funny', 'books', 'gifts', 'bookmark'],
+    colourTags:['blue', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 37,
@@ -846,22 +990,26 @@ export const storeProducts = [
     img: "img/SPRINGFORWARDillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Jump it to spring with these funny little frogs and send your pen pals hopping mad. A wonderful postcard for the oldest and youngest in your address book`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['nature', 'frogs', 'early learning', 'spring', 'wildlife'],
+    moreTags:['seasonal', 'kids', 'education', 'fun'],
+    colourTags:['blue', 'green'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 38,
@@ -869,22 +1017,26 @@ export const storeProducts = [
     img: "img/SPRINGFORWARDpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Jump it to spring with these funny little frogs and send your pen pals hopping mad. A wonderful postcard for the oldest and youngest in your address book`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['nature', 'frogs', 'early learning', 'spring', 'wildlife'],
+    moreTags:['seasonal', 'kids', 'education', 'fun'],
+    colourTags:['yellow', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 39,
@@ -892,22 +1044,26 @@ export const storeProducts = [
     img: "img/SPRINGFORWARDtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Jump it to spring with these funny little frogs and send your pen pals hopping mad. A wonderful postcard for the oldest and youngest in your address book`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['nature', 'frogs', 'early learning', 'spring', 'wildlife'],
+    moreTags:['seasonal', 'kids', 'education', 'fun'],
+    colourTags:['yellow', 'purple', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 40,
@@ -915,22 +1071,26 @@ export const storeProducts = [
     img: "img/SUNSHINELIESAHEADillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `The summer is joyous and these little sunshines know it, whether you're on your travels checking in with family, or want to send a happy ray of sunshine to cheer someone up then this is the postcard for you.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon', 'pattern', 'kawaii', 'whimsical', 'decorative'],
+    moreTags:['pride', 'LGBTQI', 'gay rights', 'love', `valentine's`, `galentine's`, 'galentine', 'valentine', 'equal rights', 'summer', 'happy', 'anniversary', 'sunshine', 'sunset', 'holiday', 'travels', 'bon voyage'],
+    colourTags:['orange', 'pink', 'yellow' ,'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 41,
@@ -938,22 +1098,26 @@ export const storeProducts = [
     img: "img/SUNSHINELIESAHEADpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `The summer is joyous and these little sunshines know it, whether you're on your travels checking in with family, or want to send a happy ray of sunshine to cheer someone up then this is the postcard for you.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon', 'pattern', 'kawaii', 'whimsical', 'decorative'],
+    moreTags:['pride', 'LGBTQI', 'gay rights', 'love', `valentine's`, `galentine's`, 'galentine', 'valentine', 'equal rights', 'summer', 'happy', 'anniversary', 'sunshine', 'sunset', 'holiday', 'travels', 'bon voyage'],
+    colourTags:['orange', 'pink', 'yellow' ,'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 42,
@@ -961,22 +1125,26 @@ export const storeProducts = [
     img: "img/SUNSHINELIESAHEADtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `The summer is joyous and these little sunshines know it, whether you're on your travels checking in with family, or want to send a happy ray of sunshine to cheer someone up then this is the postcard for you.`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon', 'pattern', 'kawaii', 'whimsical', 'decorative'],
+    moreTags:['pride', 'LGBTQI', 'gay rights', 'love', `valentine's`, `galentine's`, 'galentine', 'valentine', 'equal rights', 'summer', 'happy', 'anniversary', 'sunshine', 'sunset', 'holiday', 'travels', 'bon voyage'],
+    colourTags:['orange', 'pink', 'yellow' ,'brown'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 43,
@@ -984,22 +1152,26 @@ export const storeProducts = [
     img: "img/TICKTOCKillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Ring in any celebration with this naughty little mouse! It's a new day, a new year, a new start, whatever it might be this postcard set is the perfect commemoration!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['mouse', 'new year', 'celebration', 'champagne', 'clock', 'party', 'happy new year', 'cheers', 'kids', 'funny'],
+    colourTags:['pink', 'red', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 44,
@@ -1007,22 +1179,26 @@ export const storeProducts = [
     img: "img/TICKTOCKpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Ring in any celebration with this naughty little mouse! It's a new day, a new year, a new start, whatever it might be this postcard set is the perfect commemoration!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['mouse', 'new year', 'celebration', 'champagne', 'clock', 'party', 'happy new year', 'cheers', 'kids', 'funny'],
+    colourTags:['pink', 'red', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 45,
@@ -1030,22 +1206,26 @@ export const storeProducts = [
     img: "img/TICKTOCKtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `Ring in any celebration with this naughty little mouse! It's a new day, a new year, a new start, whatever it might be this postcard set is the perfect commemoration!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['mouse', 'new year', 'celebration', 'champagne', 'clock', 'party', 'happy new year', 'cheers', 'kids', 'funny'],
+    colourTags:['pink', 'red', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 46,
@@ -1053,22 +1233,28 @@ export const storeProducts = [
     img: "img/WILDOUTTHEREillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `"Brighten up your walls and letterboxes with this spectacular imagination of a wild child. 
+
+    A perfect pick me up for anyone in your life, the world is wild and colourful and full of joy!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['just a note', 'funny', 'humour', 'nature', 'wildlife', 'plants', 'floral', 'cute', 'girl', 'diability awareness', 'mental health', 'jungle', 'tiger'],
+    colourTags:['green', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 47,
@@ -1076,22 +1262,28 @@ export const storeProducts = [
     img: "img/WILDOUTTHEREpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `"Brighten up your walls and letterboxes with this spectacular imagination of a wild child. 
+
+    A perfect pick me up for anyone in your life, the world is wild and colourful and full of joy!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['just a note', 'funny', 'humour', 'nature', 'wildlife', 'plants', 'floral', 'cute', 'girl', 'diability awareness', 'mental health', 'jungle', 'tiger'],
+    colourTags:['green', 'red'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 48,
@@ -1099,22 +1291,28 @@ export const storeProducts = [
     img: "img/WILDOUTTHEREtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: `"Brighten up your walls and letterboxes with this spectacular imagination of a wild child. 
+
+    A perfect pick me up for anyone in your life, the world is wild and colourful and full of joy!`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['just a note', 'funny', 'humour', 'nature', 'wildlife', 'plants', 'floral', 'cute', 'girl', 'diability awareness', 'mental health', 'jungle', 'tiger'],
+    colourTags:['green', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 49,
@@ -1122,22 +1320,26 @@ export const storeProducts = [
     img: "img/WORMYOURWAYOUTillo.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['tulip', 'nature', 'wildlife', 'comic', 'funny', 'windmill', 'worm'],
+    colourTags:['brown', 'green','red'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 50,
@@ -1145,22 +1347,26 @@ export const storeProducts = [
     img: "img/WORMYOURWAYOUTpatt.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['apple', 'nature', 'clouds', 'comic', 'funny', 'worm'],
+    colourTags:['blue', 'green','red'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {
     id: 51,
@@ -1168,27 +1374,31 @@ export const storeProducts = [
     img: "img/WORMYOURWAYOUTtext.png",
     price: 1.5,
     company: "katcha.fun",
-    info: `A fresh and fun pack of postcards featuring hand drawn art, a motivational message and a prehistoric bone print.
- 
-      Send someone a passive aggressive birthday note to let them know just how old they're getting.
-      
-      Three quality A6 postcards in a matte 300gsm FSC certified card, scanned original ink and pen drawings.
-      
-      Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-      
-      Shipped in a A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+    info: ` NEEDS TEXT HERE`,
+    materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+    pricing:`Order 1 - 5 postcards at €1.50 per card!
+    Order 5 - 9 postcards at €1.40 per card!
+    Order 10 - 15 postcards at €1.40 per card!
+    Order 16 cards and get each card at a funtastic €1.15!
+    
+    Free worldwide shipping on all orders.`,
+    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    moreTags:['leaves', 'nature', 'wildlife', 'comic', 'funny', 'flower', 'worm'],
+    colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
-    language: "n/a"
+    language: "n/a",
+    postage: false,
+postageTotal: 0
   },
   {id: 52,
   title: "The Ugliest",
   img: "img/ugliest.png",
-  price: 6.0,
+  price: 7.50,
   company: "katcha.fun",
   info: `What does it really mean to be ugly, is it all to do with what you look like?
 
@@ -1207,11 +1417,14 @@ export const storeProducts = [
   size: "A5 - Comic",
   digital: true,
   background: "img/swirls.svg",
-  language: "English"
-},  {id: 53,
+  language: "English",
+  postage: true,
+  postageTotal: 0
+},  
+{id: 53,
   title: "Das Hässlichste",
   img: "img/ugliest.png",
-  price: 6.00,
+  price: 7.50,
   company: "katcha.fun",
   info: `What does it really mean to be ugly, is it all to do with what you look like?
 
@@ -1230,7 +1443,9 @@ export const storeProducts = [
   size: "A5 - Comic",
   digital: true,
   background: "img/swirls.svg",
-  language: "Deutsch"
+  language: "Deutsch",
+  postage: true,
+  postageTotal: 0
 },
 ];
 
@@ -1240,22 +1455,26 @@ export const detailProduct = {
   img: "img/BLOOMINMARVELLOUSillo.png",
   price: 1.5,
   company: "katcha.fun",
-  info: `Grow some joy this spring with a friendly reminder that the world is wonderful! Despite it's madness at the moment.
+  info: `Grow some joy this spring with a friendly reminder that the world is blooming and it's marvellous! 
+
+  Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
+  materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
+  pricing:`Order 1 - 5 postcards at €1.50 per card!
+  Order 5 - 9 postcards at €1.40 per card!
+  Order 10 - 15 postcards at €1.40 per card!
+  Order 16 cards and get each card at a funtastic €1.15!
   
-  Marvellous for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family. 
-  
-  Get your kids writing with the Postcard Club 2020, or start postcrossing and reach out to the whole world.
-  
-  Three quality A6 postcards in a matte 300gsm FSC certified card, ink drawings, coloured digitally.
-  
-  Send them to your friends to cheer them up or adorn your walls as bright and bold art prints.
-  
-  Shipped in an A6 envelope, these cards can be beautiful prints, or wonderful hellos and cheerful thoughts for some of your nearest and dearest!`,
+  Free worldwide shipping on all orders.`,
+  tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+  moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
+  colourTags:['green', 'orange', 'purple'],
   inCart: false,
   count: 0,
   total: 0,
   size: "A6 - Postcard",
   digital: false,
   background: "img/swirls.svg",
-  language: "n/a"
+  language: "n/a",
+  postage: false,
+postageTotal: 0
 };

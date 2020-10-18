@@ -16,6 +16,11 @@ export default class Details extends Component {
             title,
             inCart,
             size,
+            materials,
+            pricing,
+            tags,
+            moreTags,
+            colourTags
           } = value.detailProduct;
           return (
             <div className="container py-5 ">
@@ -41,11 +46,32 @@ export default class Details extends Component {
                       {price}
                     </strong>
                   </h4>
-                  <p className="text-capitalize font-weight-bold mt-3 mb-2">
+                  <p className="text-capitalize lead font-weight-bold mt-3 mb-2">
                     Details
                   </p>
-                  <p className="text-muted lead">{info}</p>
-                  {/* buttons */}
+                  <p className="text-muted">{info}</p>
+                  <small>
+                  <p className="text-capitalize font-weight-bold mt-3 mb-2">
+                    Materials
+                  </p>
+                  <p className="text-muted">{materials}</p>
+                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
+                    Shipping/Pricing
+                  </p>
+                  <p className="text-muted">{pricing}</p>
+                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
+                    Tags
+                  </p>
+                  <p className="text-muted">{tags}</p>                 
+                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
+                    More Tags
+                  </p>
+                  <p className="text-muted">{moreTags}</p>
+                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
+                    Colour Tags
+                  </p>
+                  <p className="text-muted ">{colourTags}</p>
+                  </small>
                   <div>
                     <Link to="/shop">
                       <ButtonContainer>Back to Products</ButtonContainer>

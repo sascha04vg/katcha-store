@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 export default class Product extends Component {
   render() {
-    const { id, title, img, price, inCart, background,} = this.props.product;
+    const { id, title, img, price, inCart} = this.props.product;
     const shortTitle = title.substring(0, 25);
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-4 my-3">
@@ -15,7 +15,6 @@ export default class Product extends Component {
             {(value) => (
               <div
                 className="img-container"
-                style={{ backgroundImage: "url('" + background + "')" }}
                 onClick={() => {
                   value.handleDetail(id);
                 }}
@@ -58,7 +57,7 @@ export default class Product extends Component {
                 <span className="mr-1">€</span>
                 {price}
               </h5>
-              <span className="postage-badge">Free Postage</span>
+              {/* <span className="postage-badge">{postage}</span> */}
             </div>
           </div>
         </div>
@@ -127,8 +126,8 @@ const ProductWrapper = styled.div`
   .card-img-top {
     transition: all 0.2s linear;
   }
-  .img-container:hover card-img-top {
-    transform: scale(1.2);
+ .card-img-top:hover {
+    transform: scale(1.05);
   }
 
   .cart-btn {

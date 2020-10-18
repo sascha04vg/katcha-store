@@ -5,6 +5,7 @@ export default function CartTotals({ value, history }) {
   const {
     cartSubTotal,
     cartDiscount,
+    cartPostage,
     cartTotal,
     clearCart,
     cartItemCount,
@@ -31,6 +32,10 @@ export default function CartTotals({ value, history }) {
             <h5>
               <span>Discount: </span>
               <strong>€{cartDiscount}</strong>
+            </h5>
+            <h5>
+              <span>Postage: </span>
+              <strong>€{cartPostage}</strong>
             </h5>
             <h5>
               <span>Total: </span>
