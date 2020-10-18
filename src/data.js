@@ -22,6 +22,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 2,
@@ -46,6 +47,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 3,
@@ -70,6 +72,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 4,
@@ -94,6 +97,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/loops.svg",
+    language: "n/a"
   },
   {
     id: 5,
@@ -118,6 +122,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/loops.svg",
+    language: "n/a"
   },
   {
     id: 6,
@@ -142,6 +147,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/loops.svg",
+    language: "n/a"
   },
   {
     id: 7,
@@ -164,6 +170,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 8,
@@ -186,6 +193,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 9,
@@ -208,6 +216,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 10,
@@ -230,6 +239,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 11,
@@ -252,6 +262,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 12,
@@ -274,6 +285,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 13,
@@ -296,6 +308,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 14,
@@ -318,6 +331,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 15,
@@ -340,6 +354,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 16,
@@ -362,6 +377,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 17,
@@ -384,6 +400,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 18,
@@ -406,6 +423,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 19,
@@ -428,6 +446,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 20,
@@ -450,6 +469,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 21,
@@ -472,6 +492,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 22,
@@ -494,6 +515,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 23,
@@ -516,6 +538,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 24,
@@ -538,6 +561,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 25,
@@ -560,6 +584,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 26,
@@ -582,6 +607,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 27,
@@ -604,6 +630,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 28,
@@ -626,6 +653,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 29,
@@ -648,6 +676,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 30,
@@ -670,7 +699,9 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
+
   {
     id: 31,
     title: "Quickly Prickly - Illustration",
@@ -692,6 +723,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 32,
@@ -714,6 +746,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 33,
@@ -736,6 +769,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 34,
@@ -758,6 +792,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 35,
@@ -780,6 +815,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 36,
@@ -802,6 +838,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 37,
@@ -824,6 +861,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 38,
@@ -846,6 +884,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 39,
@@ -868,6 +907,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 40,
@@ -890,6 +930,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 41,
@@ -912,6 +953,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 42,
@@ -934,6 +976,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 43,
@@ -956,6 +999,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 44,
@@ -978,6 +1022,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 45,
@@ -1000,6 +1045,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 46,
@@ -1022,6 +1068,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 47,
@@ -1044,6 +1091,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 48,
@@ -1066,6 +1114,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 49,
@@ -1088,6 +1137,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 50,
@@ -1110,6 +1160,7 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
   {
     id: 51,
@@ -1132,7 +1183,55 @@ export const storeProducts = [
     size: "A6 - Postcard",
     digital: false,
     background: "img/swirls.svg",
+    language: "n/a"
   },
+  {id: 52,
+  title: "The Ugliest",
+  img: "img/ugliest.png",
+  price: 6.0,
+  company: "katcha.fun",
+  info: `What does it really mean to be ugly, is it all to do with what you look like?
+
+  Or is there more to it than that? Take a walk with this naked mole rat for the day and decide for yourself.
+  
+  ----------------------------------------
+  
+  This comic follows a day in the life of a naked molerat set in the heart of the north east of Africa. Celebrating resilience, ugliness and, empathy. Creatures and people of the deserts of Africa navigate this story about how we treat ourselves and others and the downfalls that come with flippant opinions.
+  
+  This comic is really a labour of love, and a dip into the comic ocean, so this comic is all in pencils and watercolour, though I am no letterer, so, for now, I will make do with a digital method for that!
+  
+  Printed in an A5 size, which is 8.27 x 5.83 inches for anyone in the US, printed in the UK on 115gsm recycled paper pages with a 300gsm recycled card cover and will be 20 pages, cover to back, with as little damage to our environment as possible!`,
+  inCart: false,
+  count: 0,
+  total: 0,
+  size: "A5 - Comic",
+  digital: true,
+  background: "img/swirls.svg",
+  language: "English"
+},  {id: 53,
+  title: "Das Hässlichste",
+  img: "img/ugliest.png",
+  price: 6.00,
+  company: "katcha.fun",
+  info: `What does it really mean to be ugly, is it all to do with what you look like?
+
+  Or is there more to it than that? Take a walk with this naked mole rat for the day and decide for yourself.
+  
+  ----------------------------------------
+  
+  This comic follows a day in the life of a naked molerat set in the heart of the north east of Africa. Celebrating resilience, ugliness and, empathy. Creatures and people of the deserts of Africa navigate this story about how we treat ourselves and others and the downfalls that come with flippant opinions.
+  
+  This comic is really a labour of love, and a dip into the comic ocean, so this comic is all in pencils and watercolour, though I am no letterer, so, for now, I will make do with a digital method for that!
+  
+  Printed in an A5 size, which is 8.27 x 5.83 inches for anyone in the US, printed in the UK on 115gsm recycled paper pages with a 300gsm recycled card cover and will be 20 pages, cover to back, with as little damage to our environment as possible!`,
+  inCart: false,
+  count: 0,
+  total: 0,
+  size: "A5 - Comic",
+  digital: true,
+  background: "img/swirls.svg",
+  language: "Deutsch"
+},
 ];
 
 export const detailProduct = {
@@ -1158,4 +1257,5 @@ export const detailProduct = {
   size: "A6 - Postcard",
   digital: false,
   background: "img/swirls.svg",
+  language: "n/a"
 };

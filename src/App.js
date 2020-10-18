@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import PostCard from "./components/PostCard";
 import IllustrationList from "./components/IllustrationList";
-import Comics from "./components/Comics";
+import Comiclist from "./components/Comiclist";
 import Cookie from "./components/Cookie";
 import Privacy from "./components/Privacy"
 import Terms from "./components/Terms"
@@ -31,7 +31,7 @@ class App extends Component {
           <Route path="/about" component={About}></Route>
           <Route path="/postcard" component={PostCard}></Route>
           <Route path="/illustration" component={IllustrationList}></Route>
-          <Route path="/comics" component={Comics}></Route>
+          <Route path="/comics" component={Comiclist}></Route>
           <Route path="/privacy" component={Privacy}></Route>
           <Route path="/terms" component={Terms}></Route>
           <Route component={Default}></Route>
