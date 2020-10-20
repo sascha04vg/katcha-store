@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 export default class Product extends Component {
   render() {
-    const { id, title, img, price, inCart} = this.props.product;
+    const { id, title, img, price, inCart, tags} = this.props.product;
     const shortTitle = title.substring(0, 25);
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-4 my-3">
@@ -22,7 +22,7 @@ export default class Product extends Component {
                 <Link to="/details">
                   <img
                     src={img}
-                    alt="product"
+                    alt={tags}
                     className="card-img-top p-2"
                   ></img>
                 </Link>

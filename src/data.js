@@ -9,19 +9,18 @@ export const storeProducts = [
 
     Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+    'Order 5 - 9 postcards at €1.40 per card!',
+    'Order 10 - 15 postcards at €1.40 per card!',
+    'Order 16 cards and get each card at a funtastic €1.15!',
+        'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
     colourTags:['green', 'orange', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -38,19 +37,18 @@ postageTotal: 0
 
     Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
     colourTags:['green', 'orange', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -67,19 +65,18 @@ postageTotal: 0
 
     Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
     colourTags:['green', 'orange', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -94,19 +91,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Get all autumnal with these magic, but deadly funghis. Celebrate the turning of the seasons with all your friends!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['text', 'quote', 'message', 'inspiration', 'aspiration'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`text, quote, message, inspiration, aspiration`,
     moreTags:['funny', 'punny', 'watercolour', 'nature', 'autumn', 'seasonal', 'mushrooms', 'leaves'],
     colourTags:['red', 'orange', 'brown', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/loops.svg",
     language: "n/a",
@@ -121,19 +117,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Get all autumnal with these magic, but deadly funghis. Celebrate the turning of the seasons with all your friends!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['text', 'quote', 'message', 'inspiration', 'aspiration'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`text, quote, message, inspiration, aspiration`,
     moreTags:['funny', 'punny', 'watercolour', 'nature', 'autumn', 'seasonal', 'mushrooms', 'leaves'],
     colourTags:['red', 'orange', 'brown', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/loops.svg",
     language: "n/a",
@@ -148,19 +143,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Get all autumnal with these magic, but deadly funghis. Celebrate the turning of the seasons with all your friends!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['text', 'quote', 'message', 'inspiration', 'aspiration'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`text, quote, message, inspiration, aspiration`,
     moreTags:['funny', 'punny', 'watercolour', 'nature', 'autumn', 'seasonal', 'mushrooms', 'leaves'],
     colourTags:['red', 'orange', 'brown', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/loops.svg",
     language: "n/a",
@@ -175,19 +169,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Dinosaurs are for everyone, and this collection of watercolour dinosaurs will definitely make that statement!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['dinosaurs', 'kids cards', 'illustration', 'pattern', 'watercolour'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`dinosaurs, kids cards, illustration, pattern, watercolour`,
     moreTags:['funny', 'kawaii'],
     colourTags:['pink', 'green', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -202,19 +195,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Dinosaurs are for everyone, and this collection of watercolour dinosaurs will definitely make that statement!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['dinosaurs', 'kids cards', 'illustration', 'pattern', 'watercolour'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`dinosaurs, kids cards, illustration, pattern, watercolour`,
     moreTags:['funny', 'kawaii'],
     colourTags:['pink', 'green', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -229,19 +221,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Dinosaurs are for everyone, and this collection of watercolour dinosaurs will definitely make that statement!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['dinosaurs', 'kids cards', 'illustration', 'pattern', 'watercolour'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`dinosaurs, kids cards, illustration, pattern, watercolour`,
     moreTags:['funny', 'kawaii'],
     colourTags:['pink', 'green', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -256,19 +247,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['leaves', 'nature', 'girl', 'comic', 'funny', 'watering', 'growing'],
     colourTags:['brown', 'green','peach'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -283,19 +273,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['Acorn', 'nature', 'comic', 'funny', 'growing'],
     colourTags:['green'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -310,19 +299,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['Leaves', 'nature', 'comic', 'funny', 'growing'],
     colourTags:['green', 'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -337,19 +325,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['Halloween', 'Sweets', 'Frogs', 'Bats', 'Broom'],
     colourTags:['green', 'orange' , 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -364,19 +351,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['Halloween', 'Sweets', 'Frogs', 'Bats', 'Broom'],
     colourTags:['green', 'orange'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -391,19 +377,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['Halloween', 'Sweets', 'Frogs', 'Bats', 'Broom'],
     colourTags:['green', 'orange' , 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -420,19 +405,18 @@ postageTotal: 0
 
     Wonderful for Valentine's, special occasions or just a spontaneous declaration of admiration for your friends and family.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon 'valentine', valentine, 'galentine', 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'`,
     moreTags:['valentine', `valentine's`, 'galentine', `galentine's`, 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'],
     colourTags:['blue', 'red', 'grey'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -449,19 +433,18 @@ postageTotal: 0
 
     Wonderful for Valentine's, special occasions or just a spontaneous declaration of admiration for your friends and family.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon 'valentine', valentine, 'galentine', 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'`,
     moreTags:['valentine', `valentine's`, 'galentine', `galentine's`, 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'],
     colourTags:['blue', 'red', 'grey'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -478,19 +461,18 @@ postageTotal: 0
 
     Wonderful for Valentine's, special occasions or just a spontaneous declaration of admiration for your friends and family.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon 'valentine', valentine, 'galentine', 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'`,
     moreTags:['valentine', `valentine's`, 'galentine', `galentine's`, 'love', 'hearts', 'get well soon', 'sad days', 'depression', 'mental health', 'happy', 'kids', 'funny'],
     colourTags:['blue', 'red', 'grey'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -505,19 +487,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon, Birthday , Cup cake , Cheery , Party, Candles`,
     moreTags:['Birthday', 'Cake', 'Balloons', 'Party', 'Candles'],
     colourTags:['green', 'pink' , 'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -532,19 +513,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon, cake , Birthday , Cup cake , Cheery , Party, Candles`,
     moreTags:['Birthday', 'Cup cake', 'Cheery', 'Party', 'Candles'],
     colourTags:['green', 'pink' , 'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -559,19 +539,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon, Birthday , Cup cake , Cheery , Party, Candles`,
     moreTags:['Birthday', 'Cup cake', 'Cheery', 'Party', 'Candles'],
     colourTags:['green', 'pink' , 'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -586,19 +565,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Goofy hearts need goofy cards, send your weird love with these happy hearts.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon, 'red', 'blue'`,
     moreTags:['watercolour', 'funny', 'goofy', 'cute', 'pattern', 'valentine', 'anniversary', 'galentine', 'self love', 'love', 'hearts'],
     colourTags:['red', 'blue'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -613,19 +591,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Goofy hearts need goofy cards, send your weird love with these happy hearts.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon, 'red', 'white'`,
     moreTags:['watercolour', 'funny', 'goofy', 'cute', 'pattern', 'valentine', 'anniversary', 'galentine', 'self love', 'love', 'hearts'],
     colourTags:['red', 'white'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -640,19 +617,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Goofy hearts need goofy cards, send your weird love with these happy hearts.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'funny', 'goofy', 'cute', 'pattern', 'valentine', 'anniversary', 'galentine', 'self love', 'love', 'hearts'],
     colourTags:['red', 'pink'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -667,19 +643,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `A postcard that celebrates the launch of my kid's comic, The Ugliest, send this collection of sleeping naked mole rats and spread the cutest, ugliest, happiest love you ever did see.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'nature', 'wildlife', 'africa', 'comic', 'funny', 'self love'],
     colourTags:['brown', 'pink','yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -694,19 +669,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `A postcard that celebrates the launch of my kid's comic, The Ugliest, send this collection of sleeping naked mole rats and spread the cutest, ugliest, happiest love you ever did see.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'nature', 'wildlife', 'africa', 'comic', 'funny', 'self love'],
     colourTags:['brown', 'pink','yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -721,19 +695,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `A postcard that celebrates the launch of my kid's comic, The Ugliest, send this collection of sleeping naked mole rats and spread the cutest, ugliest, happiest love you ever did see.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'nature', 'wildlife', 'africa', 'comic', 'funny', 'self love'],
     colourTags:['brown', 'pink','yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -748,19 +721,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
     colourTags:['blue', 'green','white'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -775,19 +747,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
     colourTags:['blue', 'green','white'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -802,19 +773,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['watercolour', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
     colourTags:['blue', 'green','white'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -830,19 +800,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['cactus', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
     colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -857,19 +826,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['cactus', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
     colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -884,19 +852,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['cactus', 'nature', 'wildlife', 'comic', 'funny', 'winter', 'chilly'],
     colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -911,19 +878,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `The perfict postcard for book lovers, the ever devoted reader in their natural habitat! Send it out for World Book Day or to your favourite avid reader.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['reading', 'world book day', 'early learning', 'mental health', 'just a note', 'hello', 'how are you', 'funny', 'books', 'gifts', 'bookmark'],
     colourTags:['blue', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -938,19 +904,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `The perfict postcard for book lovers, the ever devoted reader in their natural habitat! Send it out for World Book Day or to your favourite avid reader.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['reading', 'world book day', 'early learning', 'mental health', 'just a note', 'hello', 'how are you', 'funny', 'books', 'gifts', 'bookmark'],
     colourTags:['blue', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -965,19 +930,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `The perfict postcard for book lovers, the ever devoted reader in their natural habitat! Send it out for World Book Day or to your favourite avid reader.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['reading', 'world book day', 'early learning', 'mental health', 'just a note', 'hello', 'how are you', 'funny', 'books', 'gifts', 'bookmark'],
     colourTags:['blue', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -992,19 +956,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Jump it to spring with these funny little frogs and send your pen pals hopping mad. A wonderful postcard for the oldest and youngest in your address book`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['nature', 'frogs', 'early learning', 'spring', 'wildlife'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+       tags:`nature, frogs, early learning, spring, wildlife`,
     moreTags:['seasonal', 'kids', 'education', 'fun'],
     colourTags:['blue', 'green'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1019,19 +982,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Jump it to spring with these funny little frogs and send your pen pals hopping mad. A wonderful postcard for the oldest and youngest in your address book`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['nature', 'frogs', 'early learning', 'spring', 'wildlife'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+       tags:`nature, frogs, early learning, spring, wildlife`,
     moreTags:['seasonal', 'kids', 'education', 'fun'],
     colourTags:['yellow', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1046,19 +1008,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Jump it to spring with these funny little frogs and send your pen pals hopping mad. A wonderful postcard for the oldest and youngest in your address book`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['nature', 'frogs', 'early learning', 'spring', 'wildlife'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+       tags:`nature, frogs, early learning, spring, wildlife`,
     moreTags:['seasonal', 'kids', 'education', 'fun'],
     colourTags:['yellow', 'purple', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1073,19 +1034,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `The summer is joyous and these little sunshines know it, whether you're on your travels checking in with family, or want to send a happy ray of sunshine to cheer someone up then this is the postcard for you.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon', 'pattern', 'kawaii', 'whimsical', 'decorative'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+       tags:`illustration, kids illustration, fun, cute, cartoon, pattern, kawaii, whimsical, decorative`,
     moreTags:['pride', 'LGBTQI', 'gay rights', 'love', `valentine's`, `galentine's`, 'galentine', 'valentine', 'equal rights', 'summer', 'happy', 'anniversary', 'sunshine', 'sunset', 'holiday', 'travels', 'bon voyage'],
     colourTags:['orange', 'pink', 'yellow' ,'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1100,19 +1060,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `The summer is joyous and these little sunshines know it, whether you're on your travels checking in with family, or want to send a happy ray of sunshine to cheer someone up then this is the postcard for you.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon', 'pattern', 'kawaii', 'whimsical', 'decorative'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+       tags:`illustration, kids illustration, fun, cute, cartoon, pattern, kawaii, whimsical, decorative`,
     moreTags:['pride', 'LGBTQI', 'gay rights', 'love', `valentine's`, `galentine's`, 'galentine', 'valentine', 'equal rights', 'summer', 'happy', 'anniversary', 'sunshine', 'sunset', 'holiday', 'travels', 'bon voyage'],
     colourTags:['orange', 'pink', 'yellow' ,'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1127,19 +1086,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `The summer is joyous and these little sunshines know it, whether you're on your travels checking in with family, or want to send a happy ray of sunshine to cheer someone up then this is the postcard for you.`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon', 'pattern', 'kawaii', 'whimsical', 'decorative'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+       tags:`illustration, kids illustration, fun, cute, cartoon, pattern, kawaii, whimsical, decorative`,
     moreTags:['pride', 'LGBTQI', 'gay rights', 'love', `valentine's`, `galentine's`, 'galentine', 'valentine', 'equal rights', 'summer', 'happy', 'anniversary', 'sunshine', 'sunset', 'holiday', 'travels', 'bon voyage'],
     colourTags:['orange', 'pink', 'yellow' ,'brown'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1154,19 +1112,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Ring in any celebration with this naughty little mouse! It's a new day, a new year, a new start, whatever it might be this postcard set is the perfect commemoration!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['mouse', 'new year', 'celebration', 'champagne', 'clock', 'party', 'happy new year', 'cheers', 'kids', 'funny'],
     colourTags:['pink', 'red', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1181,19 +1138,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Ring in any celebration with this naughty little mouse! It's a new day, a new year, a new start, whatever it might be this postcard set is the perfect commemoration!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['mouse', 'new year', 'celebration', 'champagne', 'clock', 'party', 'happy new year', 'cheers', 'kids', 'funny'],
     colourTags:['pink', 'red', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1208,19 +1164,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: `Ring in any celebration with this naughty little mouse! It's a new day, a new year, a new start, whatever it might be this postcard set is the perfect commemoration!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['mouse', 'new year', 'celebration', 'champagne', 'clock', 'party', 'happy new year', 'cheers', 'kids', 'funny'],
     colourTags:['pink', 'red', 'purple'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1237,19 +1192,18 @@ postageTotal: 0
 
     A perfect pick me up for anyone in your life, the world is wild and colourful and full of joy!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['just a note', 'funny', 'humour', 'nature', 'wildlife', 'plants', 'floral', 'cute', 'girl', 'diability awareness', 'mental health', 'jungle', 'tiger'],
     colourTags:['green', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1266,19 +1220,18 @@ postageTotal: 0
 
     A perfect pick me up for anyone in your life, the world is wild and colourful and full of joy!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['just a note', 'funny', 'humour', 'nature', 'wildlife', 'plants', 'floral', 'cute', 'girl', 'diability awareness', 'mental health', 'jungle', 'tiger'],
     colourTags:['green', 'red'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1295,19 +1248,18 @@ postageTotal: 0
 
     A perfect pick me up for anyone in your life, the world is wild and colourful and full of joy!`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['just a note', 'funny', 'humour', 'nature', 'wildlife', 'plants', 'floral', 'cute', 'girl', 'diability awareness', 'mental health', 'jungle', 'tiger'],
     colourTags:['green', 'red', 'yellow'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1322,19 +1274,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['tulip', 'nature', 'wildlife', 'comic', 'funny', 'windmill', 'worm'],
     colourTags:['brown', 'green','red'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1349,19 +1300,18 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['apple', 'nature', 'clouds', 'comic', 'funny', 'worm'],
     colourTags:['blue', 'green','red'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
@@ -1376,24 +1326,23 @@ postageTotal: 0
     company: "katcha.fun",
     info: ` NEEDS TEXT HERE`,
     materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-    pricing:`Order 1 - 5 postcards at €1.50 per card!
-    Order 5 - 9 postcards at €1.40 per card!
-    Order 10 - 15 postcards at €1.40 per card!
-    Order 16 cards and get each card at a funtastic €1.15!
-    
-    Free worldwide shipping on all orders.`,
-    tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
+    pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
+    tags:`illustration, kids illustration, fun, cute, cartoon`,
     moreTags:['leaves', 'nature', 'wildlife', 'comic', 'funny', 'flower', 'worm'],
     colourTags:['brown', 'green','pink'],
     inCart: false,
     count: 0,
     total: 0,
-    size: "A6 - Postcard",
+    size: "Postcard",
     digital: false,
     background: "img/swirls.svg",
     language: "n/a",
     postage: false,
-postageTotal: 0
+    postageTotal: 0
   },
   {id: 52,
   title: "The Ugliest",
@@ -1415,7 +1364,8 @@ postageTotal: 0
   count: 0,
   total: 0,
   size: "A5 - Comic",
-  digital: true,
+    digital: true,
+    tags:`illustration, kids illustration, fun, cute, comic`,
   background: "img/swirls.svg",
   language: "English",
   postage: true,
@@ -1442,6 +1392,7 @@ postageTotal: 0
   total: 0,
   size: "A5 - Comic",
   digital: true,
+  tags:`illustration, kids illustration, fun, cute, comic`,
   background: "img/swirls.svg",
   language: "Deutsch",
   postage: true,
@@ -1459,19 +1410,18 @@ export const detailProduct = {
 
   Perfect for Mother's Day, Father's Day or Easter or just a spontaneous declaration of admiration for your friends and family.`,
   materials:`This postcard is printed on high quality 330gsm FSC regulated A6 card with a matte front and a writable back.`,
-  pricing:`Order 1 - 5 postcards at €1.50 per card!
-  Order 5 - 9 postcards at €1.40 per card!
-  Order 10 - 15 postcards at €1.40 per card!
-  Order 16 cards and get each card at a funtastic €1.15!
-  
-  Free worldwide shipping on all orders.`,
+  pricing:['Order 1 - 5 postcards at €1.50 per card!',
+  'Order 5 - 9 postcards at €1.40 per card!',
+  'Order 10 - 15 postcards at €1.40 per card!',
+  'Order 16 cards and get each card at a funtastic €1.15!',
+      'Free worldwide shipping on all orders.'],
   tags:['illustration', 'kids illustration', 'fun', 'cute', 'cartoon'],
   moreTags:['floral', 'flowers', 'insects', 'nature', 'wildlife', 'spring','seasonal', 'kids'],
   colourTags:['green', 'orange', 'purple'],
   inCart: false,
   count: 0,
   total: 0,
-  size: "A6 - Postcard",
+  size: "Postcard",
   digital: false,
   background: "img/swirls.svg",
   language: "n/a",

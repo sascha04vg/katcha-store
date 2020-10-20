@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { ProductConsumer } from "../context";
 import { Link } from "react-router-dom";
 import { ButtonContainer } from "./Button";
-
+import styled from "styled-components";
 export default class Details extends Component {
   render() {
     return (
@@ -17,40 +17,22 @@ export default class Details extends Component {
             inCart,
             size,
             materials,
-            pricing,
-            tags,
-            moreTags,
-            colourTags
+            pricing
           } = value.detailProduct;
           return (
             <div className="container py-5 ">
-              {/* title */}
-              <div className="row">
-                <div className="col-10 mx-auto text-center my-5">
-                  <h1>{title}</h1>
-                </div>
-              </div>
-              {/* endTitle */}
               {/* product Info */}
-              <div className="row">
+              <div className="row pt-5">
                 <div className="col-10 mx-auto col-md-6 my-3">
                   <img src={img} className="img-fluid" alt="zine"></img>
                 </div>
                 <div className="col-10 mx-auto col-md-6 my-3">
-                  <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                    Size: <span className="text-uppercase">{size}</span>
-                  </h4>
-                  <h4 className="text-capitalize">
-                    <strong>
-                      price: <span>€</span>
-                      {price}
-                    </strong>
-                  </h4>
-                  <p className="text-capitalize lead font-weight-bold mt-3 mb-2">
-                    Details
+                <h3 className="text-uppercase">{title}</h3>
+                <h3 className="text-uppercase">{size}</h3>
+                  <p className="text-capitalize font-weight-bold mt-3 mb-2">
+                    Description
                   </p>
                   <p className="text-muted">{info}</p>
-                  <small>
                   <p className="text-capitalize font-weight-bold mt-3 mb-2">
                     Materials
                   </p>
@@ -58,26 +40,21 @@ export default class Details extends Component {
                   <p className="text-capitalize  font-weight-bold mt-3 mb-2">
                     Shipping/Pricing
                   </p>
-                  <p className="text-muted">{pricing}</p>
-                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
-                    Tags
-                  </p>
-                  <p className="text-muted">{tags}</p>                 
-                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
-                    More Tags
-                  </p>
-                  <p className="text-muted">{moreTags}</p>
-                  <p className="text-capitalize  font-weight-bold mt-3 mb-2">
-                    Colour Tags
-                  </p>
-                  <p className="text-muted ">{colourTags}</p>
-                  </small>
+                  <Shipping className="mb-4"> {pricing.map((price,i) => {
+                      return (
+                          <p className="shipping text-muted mb-0" key={i}>{price}</p>
+                      );
+                    })}</Shipping>
+                
+                  <h4 className="text-capitalize  mb-4">
+                    <strong>
+                      price: <span>€</span>
+                      {price}
+                    </strong>
+                  </h4>
                   <div>
-                    <Link to="/shop">
-                      <ButtonContainer>Back to Products</ButtonContainer>
-                    </Link>
                     <ButtonContainer
-                      cart
+                      
                       disabled={inCart ? true : false}
                       onClick={() => {
                         value.addToCart(id);
@@ -86,6 +63,9 @@ export default class Details extends Component {
                     >
                       {inCart ? "in Cart" : "add to Cart"}
                     </ButtonContainer>
+                    <Link to="/shop">
+                      <ButtonContainer cart>Back to Products</ButtonContainer>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -97,3 +77,11 @@ export default class Details extends Component {
     );
   }
 }
+
+const Shipping = styled.div`
+
+.shipping:last-child{
+padding-top: 1rem;
+}
+
+`

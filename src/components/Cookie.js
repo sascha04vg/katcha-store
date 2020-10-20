@@ -29,7 +29,7 @@ if(cookies.get('CookieConsent')===undefined){
         <CookieModal>
             <h1>Cookies!</h1>
             <p>This site uses cookies to ensure you have an awesome experience.</p>
-            <p>You can read my privacy policy at <a href='/privacy'>here.</a></p>
+            <p>You can read my privacy policy <a href='/privacy'>here.</a></p>
             <div className="align-right">
             <button onClick={consent}className="btn btn-black btn-lg btn-cookie">Got it!</button>
             </div>
