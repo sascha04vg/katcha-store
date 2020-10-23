@@ -20,54 +20,59 @@ const Productlist = () => {
 				<div className="container">
 					<Title title="Shop" />
 					<Filter className="filters">
-						<input
-							id="all"
-							type="radio"
-							name="products"
-							value=""
-							onChange={(e) => setSearch(e.target.value)}
-						/>
-						<label htmlFor="all">All</label>
-						<input
-							id="comic"
-							type="radio"
-							name="products"
-							value="comic"
-							onChange={(e) => setSearch(e.target.value)}
-						/>
-						<label htmlFor="comic">Comics</label>
-						<input
-							id="postcards"
-							type="radio"
-							name="products"
-							value="postcard"
-							onChange={(e) => setSearch(e.target.value)}
-						/>
-						<label htmlFor="postcards">Postcards</label>
-						<input
-							id="prints"
-							type="radio"
-							name="products"
-							value="prints"
-							onChange={(e) => setSearch(e.target.value)}
-						/>
-						<label htmlFor="prints">Prints</label>
-						<input
-							className="search-box"
-							type="text"
-							placeholder="Search..."
-							onChange={(e) => setSearch(e.target.value)}
-							autoComplete="on"
-						/>
-						<button
-							className="btn btn-black btn-lg rest-btn"
-							type="reset"
-							id="clear"
-							value=""
-							onClick={handleClick}
-						>
-							Clear Filters
-						</button>
+						<div className="type-filter">
+							<input
+								id="all"
+								type="radio"
+								name="products"
+								value=""
+								onChange={(e) => setSearch(e.target.value)}
+							/>
+							<label htmlFor="all">All</label>
+							<input
+								id="comic"
+								type="radio"
+								name="products"
+								value="comic"
+								onChange={(e) => setSearch(e.target.value)}
+							/>
+							<label htmlFor="comic">Comics</label>
+							<input
+								id="postcards"
+								type="radio"
+								name="products"
+								value="postcard"
+								onChange={(e) => setSearch(e.target.value)}
+							/>
+							<label htmlFor="postcards">Postcards</label>
+							<input
+								id="prints"
+								type="radio"
+								name="products"
+								value="prints"
+								onChange={(e) => setSearch(e.target.value)}
+							/>
+							<label htmlFor="prints">Prints</label>
+						</div>
+						<div className="search-operation">
+							<input
+								className="search-box"
+								type="text"
+								placeholder="Search..."
+								onChange={(e) => setSearch(e.target.value)}
+								autoComplete="on"
+							/>
+							<button
+								className="btn btn-black btn-lg rest-btn"
+								type="reset"
+								id="clear"
+								value=""
+								onClick={handleClick}
+							>
+								Clear Filters
+							</button>
+						</div>
+
 						<div className="colour-filter">
 							<button
 								className="radio-btn red"
@@ -152,19 +157,25 @@ const Productlist = () => {
 export default Productlist;
 
 const Filter = styled.div`
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	justify-content: center;
 	align-items: center;
 	background: #ffffff;
 	padding: 1rem 0;
 
+	.search-operation,
+	.type-filter,
+	.colour-filter {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0.4rem;
+	}
+
 	.search-box {
 		margin-right: 1rem;
 		padding: 0.3rem 1rem;
-	}
-
-	.rest-btn {
-		margin-right: 1rem;
 	}
 
 	.radio-btn {
