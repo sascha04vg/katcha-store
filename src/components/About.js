@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import selfPotrait from "../img/ABOUTME2.png";
 import selfPotrait2 from "../img/ABOUTME1.png";
 import about from "../img/ABOUT ME HEADER.png";
