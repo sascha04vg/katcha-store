@@ -49,7 +49,7 @@ const Productlist = () => {
 								id="prints"
 								type="radio"
 								name="products"
-								value="prints"
+								value="print"
 								onChange={(e) => setSearch(e.target.value)}
 							/>
 							<label htmlFor="prints">Prints</label>
