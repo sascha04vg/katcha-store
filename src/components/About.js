@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import selfPotrait from "../img/ABOUTME2.png";
-import selfPotrait2 from "../img/ABOUTME1.png";
-import about from "../img/ABOUT ME HEADER.png";
+import selfPotrait from "../img/About/ABOUTME2.png";
+import selfPotrait2 from "../img/About/ABOUTME1.png";
+import about from "../img/About/ABOUT ME HEADER.png";
 import Contact from "./Contact";
 import styled from "styled-components";
 import { device } from "./Device";
+
 export default class About extends Component {
 	render() {
 		return (
 			<React.Fragment>
 				<div className="text-center pt-5">
-					<img src={about} style={{ width: "250px" }} alt="pcc_logo" />
+					<img src={about} style={{ width: "250px" }} alt="about_logo" />
 					<Grid className="grid">
 						<div className="grid-left">
 							<img src={selfPotrait} alt="Tick Tock" />

@@ -84,8 +84,8 @@ body {
 }
 
 .img-hp {
-	background-image: url("img/STARBG2RGB.png");
-	background-position: center 40%;
+	background-image: url("img/Home/STARBG2RGB.png");
+	background-position-x: 65%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100vw;
@@ -169,7 +169,7 @@ body {
 }
 
 .twinkling {
-	background: transparent url("img/twinkling.png") repeat top center;
+	background: transparent url("img/Home/twinkling.png") repeat top center;
 	z-index: -1;
 
 	-moz-animation: move-twink-back 200s linear infinite;

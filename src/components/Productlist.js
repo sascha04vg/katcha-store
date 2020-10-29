@@ -1,24 +1,30 @@
 import React, { useState } from "react";
 import Product from "./Product";
-import Title from "./Title";
 import { ProductConsumer } from "../context";
 import styled from "styled-components";
-
+import shop from "../img/Shop/SHOP header.png";
 const Productlist = () => {
 	const [search, setSearch] = useState("");
+	const [filter, setFilter] = useState("");
 
 	function handleClick() {
 		setSearch("");
 		document.querySelectorAll("input").forEach((input) => (input.value = ""));
-		document
-			.querySelectorAll("input")
-			.forEach((input) => (input.checked = false));
+		document.querySelectorAll("input");
 	}
+
+	function handleSearch() {
+		setSearch(filter);
+		document.getElementById("search").value = "";
+	}
+
 	return (
 		<React.Fragment>
 			<div className="py-5">
 				<div className="container">
-					<Title title="Shop" />
+					<div className="header text-center pt-2">
+						<img src={shop} style={{ width: "150px" }} alt="shop_logo" />
+					</div>
 					<Filter className="filters">
 						<div className="type-filter">
 							<input
@@ -59,17 +65,26 @@ const Productlist = () => {
 								className="search-box"
 								type="text"
 								placeholder="Search..."
-								onChange={(e) => setSearch(e.target.value)}
+								onChange={(e) => setFilter(e.target.value)}
 								autoComplete="on"
+								id="search"
 							/>
 							<button
-								className="btn btn-black btn-lg rest-btn"
+								className="btn btn-black btn-lg rest-btn mr-1"
+								type="filter"
+								value=""
+								onClick={handleSearch}
+							>
+								Search
+							</button>
+							<button
+								className="btn btn-black btn-lg rest-btn "
 								type="reset"
 								id="clear"
 								value=""
 								onClick={handleClick}
 							>
-								Clear Filters
+								Clear
 							</button>
 						</div>
 

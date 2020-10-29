@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import PostCardClub from "../img/PostcardClub.gif";
-import Snail from "../img/PCCLUBIMAGE1.png";
-import Bloom from "../img/PCCLUBIMAGE2.png";
-import Tick from "../img/PCCLUBIMAGE3.png";
-import Rain from "../img/PCCLUBIMAGE4.png";
+import PostCardClub from "../img/PostCardClub/PostcardClub.gif";
+import Snail from "../img/PostCardClub/PCCLUBIMAGE1.png";
+import Bloom from "../img/PostCardClub/PCCLUBIMAGE2.png";
+import Tick from "../img/PostCardClub/PCCLUBIMAGE3.png";
+import Rain from "../img/PostCardClub/PCCLUBIMAGE4.png";
 import styled from "styled-components";
 import { device } from "./Device";
 

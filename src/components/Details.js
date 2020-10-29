@@ -18,6 +18,7 @@ export default class Details extends Component {
 						size,
 						materials,
 						pricing,
+						sku,
 					} = value.detailProduct;
 					return (
 						<div className="container py-5 ">
@@ -29,6 +30,9 @@ export default class Details extends Component {
 								<div className="col-10 mx-auto col-md-6 my-3">
 									<h3 className="text-uppercase">{title}</h3>
 									<h3 className="text-uppercase">{size}</h3>
+									<p className="text-capitalize font-weight-bold mt-3 mb-2">
+										SKU: <span className="text-muted">{sku}</span>{" "}
+									</p>
 									<p className="text-capitalize font-weight-bold mt-3 mb-2">
 										Description
 									</p>
