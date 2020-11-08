@@ -18,6 +18,13 @@ const Productlist = () => {
 		document.getElementById("search").value = "";
 	}
 
+	const handleKeyDown = (event) => {
+		if (event.key === "Enter") {
+			setSearch(filter);
+			document.getElementById("search").value = "";
+		}
+	};
+
 	return (
 		<React.Fragment>
 			<div className="py-5">
@@ -59,6 +66,22 @@ const Productlist = () => {
 								onChange={(e) => setSearch(e.target.value)}
 							/>
 							<label htmlFor="prints">Prints</label>
+							<input
+								id="accessories"
+								type="radio"
+								name="products"
+								value="accessories"
+								onChange={(e) => setSearch(e.target.value)}
+							/>
+							<label htmlFor="accessories">Accessories</label>
+							<input
+								id="activities"
+								type="radio"
+								name="products"
+								value="activities"
+								onChange={(e) => setSearch(e.target.value)}
+							/>
+							<label htmlFor="activities">Activities</label>
 						</div>
 						<div className="search-operation">
 							<input
@@ -66,6 +89,7 @@ const Productlist = () => {
 								type="text"
 								placeholder="Search..."
 								onChange={(e) => setFilter(e.target.value)}
+								onKeyDown={handleKeyDown}
 								autoComplete="on"
 								id="search"
 							/>
@@ -180,7 +204,6 @@ const Filter = styled.div`
 	padding: 1rem 0;
 
 	.search-operation,
-	.type-filter,
 	.colour-filter {
 		display: flex;
 		justify-content: center;
@@ -188,6 +211,10 @@ const Filter = styled.div`
 		padding: 0.4rem;
 	}
 
+	.type-filter {
+		text-align: center;
+		padding: 0.4rem;
+	}
 	.search-box {
 		margin-right: 1rem;
 		padding: 0.3rem 1rem;

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PostCardClub from "../img/PostCardClub/PostcardClub.gif";
 import Snail from "../img/PostCardClub/PCCLUBIMAGE1.png";
 import Bloom from "../img/PostCardClub/PCCLUBIMAGE2.png";
@@ -50,8 +51,16 @@ export default class PostCard extends Component {
 							</p>
 
 							<p>
-								You can still buy previous postcard sets in the shop. Or you can
-								follow me on Kickstarter for any updates.
+								You can still buy previous postcard sets in the{" "}
+								<Link to="/shop">Shop</Link>. Or you can follow me on{" "}
+								<a
+									href="https://www.kickstarter.com/projects/katcha/postcard-club-2020-get-writing-with-monthly-postcard-packs?ref=nav_search&result=project&term=postcard%20club"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Kickstarter
+								</a>{" "}
+								for any updates.
 							</p>
 						</div>
 						<div className="grid-right">

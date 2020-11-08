@@ -53,11 +53,11 @@ class ProductProvider extends Component {
 		product.count = 1;
 		const price = product.price;
 		product.total = price;
-		if (product.postage === true) {
-			product.totalPostage = 3.7;
-		} else {
-			product.totalPostage = 0;
-		}
+		// if (product.postage === true) {
+		// 	product.totalPostage = 1;
+		// } else {
+		// 	product.totalPostage = 0;
+		// }
 
 		this.setState(
 			() => {
@@ -175,7 +175,6 @@ class ProductProvider extends Component {
 		let tempPostage = 0;
 		this.state.cart.map((item) => (subTotal += item.total));
 		this.state.cart.map((item) => (cartItem += item.count));
-		this.state.cart.map((item) => (tempPostage += item.totalPostage));
 		let tempDiscount = 0;
 		if (cartItem <= 4) {
 			tempDiscount = 0;
@@ -186,15 +185,24 @@ class ProductProvider extends Component {
 		} else {
 			tempDiscount = cartItem * 0.35;
 		}
-		const postage = parseFloat(tempPostage.toFixed(2));
+
+		const tempTotal = subTotal - tempDiscount;
+		if (tempTotal < 15) {
+			tempPostage = 2.5;
+		} else {
+			tempPostage = 0;
+		}
+		const totalCartPostage = parseFloat(tempPostage.toFixed(2));
 		const discount = parseFloat(tempDiscount.toFixed(2));
-		const total = parseFloat((subTotal - discount + postage).toFixed(2));
+		const total = parseFloat(
+			(subTotal - discount + totalCartPostage).toFixed(2)
+		);
 
 		this.setState(() => {
 			return {
 				cartSubTotal: subTotal,
 				cartDiscount: discount,
-				cartPostage: postage,
+				cartPostage: totalCartPostage,
 				cartTotal: total,
 				cartItemCount: cartItem,
 			};

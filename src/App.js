@@ -17,6 +17,8 @@ import Comic from "./components/Comics";
 import Cookie from "./components/Cookie";
 import Privacy from "./components/Privacy";
 import Terms from "./components/Terms";
+import Imprint from "./components/Imprint";
+import PurchasePage from "./components/PurchasePage";
 
 class App extends Component {
 	render() {
@@ -34,6 +36,8 @@ class App extends Component {
 					<Route path="/comics" component={Comic}></Route>
 					<Route path="/privacy" component={Privacy}></Route>
 					<Route path="/terms" component={Terms}></Route>
+					<Route path="/imprint" component={Imprint}></Route>
+					<Route path="/purchases" component={PurchasePage}></Route>
 					<Route component={Default}></Route>
 				</Switch>
 				<Modal />

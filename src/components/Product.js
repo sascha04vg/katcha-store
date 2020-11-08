@@ -20,7 +20,11 @@ export default class Product extends Component {
 								}}
 							>
 								<Link to="/details">
-									<img src={img} alt={tags} className="card-img-top p-2"></img>
+									<img
+										src={img[0]}
+										alt={tags}
+										className="card-img-top p-2"
+									></img>
 								</Link>
 								<button
 									className="cart-btn"

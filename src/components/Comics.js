@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { ButtonContainer } from "./Button";
+import { Link } from "react-router-dom";
+import { ProductConsumer } from "../context";
 import comic from "../img/Comics/COMICHEADER.png";
 import styled from "styled-components";
 import comicLeftENG from "../img/Comics/THEUGLIESTCOMICPHOTO.png";
@@ -31,7 +34,6 @@ export default function Comics() {
 					<h1 id="haesslich" className="comics-h2">
 						Das Hässlichste
 					</h1>
-					<p className="text-muted">Select an option</p>
 				</div>
 				<div className={comicDisplay ? "none" : "wrapper-left"}>
 					<div className="content-left">
@@ -77,6 +79,19 @@ export default function Comics() {
 
 					<div className="text-center">
 						<p>You can purchase a physical or PDF copy from my shop, here. </p>
+						<ProductConsumer>
+							{(value) => (
+								<Link to="/details">
+									<ButtonContainer
+										onClick={() => {
+											value.handleDetail(52);
+										}}
+									>
+										Go to Shop
+									</ButtonContainer>
+								</Link>
+							)}
+						</ProductConsumer>
 						<div className="mole-center">
 							<img src={moleRat} alt="" />
 						</div>
@@ -128,6 +143,19 @@ export default function Comics() {
 							Eine digitale oder gedruckte Version könnt ihr in meinem Shop
 							kaufen.
 						</p>
+						<ProductConsumer>
+							{(value) => (
+								<Link to="/details">
+									<ButtonContainer
+										onClick={() => {
+											value.handleDetail(53);
+										}}
+									>
+										Go to Shop
+									</ButtonContainer>
+								</Link>
+							)}
+						</ProductConsumer>
 						<div className="mole-center">
 							<img className="moleLeft" src={moleRat} alt="" />
 						</div>
@@ -144,11 +172,15 @@ export default function Comics() {
 const ComicContainer = styled.div`
 	overflow-x: hidden;
 	padding-bottom: 5rem;
+
+	.hero {
+		width: 800px;
+	}
 	.moleLeft {
 		transform: rotateY(180deg);
 	}
 
-	.titles:hover {
+	.titles h1:hover {
 		color: #eb6864;
 		cursor: pointer;
 
@@ -207,26 +239,27 @@ const ComicContainer = styled.div`
 	.wrapper-left .content-text-left {
 		float: right;
 		padding-right: 1rem;
-		grid-column: auto / span 3;
+		grid-column: auto / span 2;
 		grid-column-start: 2;
 		padding: 5rem 0;
 	}
 	.wrapper-right .content-text-left {
 		float: right;
 		padding-right: 1rem;
-		grid-column: auto / span 3;
-		grid-column-start: 1;
+		grid-column: auto / span 2;
+		grid-column-start: 2;
 		padding: 5rem 0;
 	}
 
 	.wrapper-left .content-text-right {
 		margin: 3rem 0 1.5rem 0;
-		grid-column: auto / span 3;
+		grid-column: auto / span 2;
 		padding: 5rem 2rem 0 0;
 	}
 	.wrapper-right .content-text-right {
 		margin: 3rem 0 1.5rem 0;
-		grid-column: auto / span 3;
+		grid-column: auto / span 2;
+		grid-column-start: 5;
 		padding: 5rem 2rem 0 0;
 	}
 
@@ -275,6 +308,9 @@ const ComicContainer = styled.div`
 		align-items: center;
 		justify-content: center;
 		padding: 1rem 0 3rem 0;
+		img {
+			width: 300px;
+		}
 	}
 
 	@media ${device.laptop} {
